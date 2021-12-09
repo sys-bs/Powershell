@@ -1,0 +1,1119 @@
+
+No.	    Signed       Unsigned        Error Code	 Error Code	
+            Integer      Integer        Hexadecimal  Description/Meaning
+1	    0	        0	            0×00000000	                        Success
+2	    1	        4294967295	    0xFFFFFFFF	        Script execution failed with error code -1
+3	    10	        10	            0x0000000A	Unit test error string
+4	    131072512	131072512	    0x07D00200	The client is successfully assigned with Group Policy Site Assignment
+5	    131073314	131073314	    0x07D00522	No more data
+6	    131073589	131073589	    0x07D00635	Scan was skipped because history was valid
+7	    -2016278002	2278689294	    0x87D20A0E	Shutdown received while compressing
+8	    -2016278003	2278689293	    0x87D20A0D	Unexpected error while compressing
+9	    -2016278004	2278689292	    0x87D20A0C	Already compressed
+10	    -2016278005	2278689291	    0x87D20A0B	Failed to create file header while compressing
+11	    -2016278006	2278689290	    0x87D20A0A	Failed to create file while compressing
+12	    -2016278007	2278689289	    0x87D20A09	Failed to create folder while compressing
+13	    -2016278008	2278689288	    0x87D20A08	Invalid compressed header in file
+14	    -2016278009	2278689287	    0x87D20A07	Invalid compressed file
+15	    -2016278010	2278689286	    0x87D20A06	Failed to compress header
+16	    -2016278011	2278689285	    0x87D20A05	File is no more there to compress
+17	    -2016278012	2278689284	    0x87D20A04	Invalid destination for compression
+18	    -2016278013	2278689283	    0x87D20A03	Invalid source for compression
+19	    -2016278014	2278689282	    0x87D20A02	Compression destination not found
+20	    -2016278015	2278689281	    0x87D20A01	Compression source not found
+21	    -2016278267	2278689029	    0x87D20905	SEDO lock request timed out
+22	    -2016278268	2278689028	    0x87D20904	SEDO lock not found
+23	    -2016278269	2278689027	    0x87D20903	Invalid object path for SEDO
+24	    -2016278270	2278689026	    0x87D20902	SEDO request ID not found
+25	    -2016278271	2278689025	    0x87D20901	SEDO needs lock ID or Rel path
+26	    -2016278518	2278688778	    0x87D2080A	Certificate not found
+27	    -2016278519	2278688777	    0x87D20809	Invalid data in certificate
+28	    -2016278520	2278688776	    0x87D20808	Failed to find certificate
+29	    -2016278521	2278688775	    0x87D20807	Failed to decrypt certificate
+30	    -2016278522	2278688774	    0x87D20806	Failed to delete certificate store
+31	    -2016278523	2278688773	    0x87D20805	Failed to write in certificate store
+32	    -2016278524	2278688772	    0x87D20804	Failed to open certificate store
+33	    -2016278525	2278688771	    0x87D20803	Error reading peer’s encoded certificate
+34	    -2016278526	2278688770	    0x87D20802	Error reading certificate
+35	    -2016278527	2278688769	    0x87D20801	Service Host Name property is either missing or invalid
+36	    -2016278776	2278688520	    0x87D20708	The specified item to update is not found in Site Control File
+37	    -2016278777	2278688519	    0x87D20707	Invalid FQDN found in Site Control File
+38	    -2016278778	2278688518	    0x87D20706	Legacy type item in Site Control File
+39	    -2016278779	2278688517	    0x87D20705	Site not found in Site Control File
+40	    -2016278780	2278688516	    0x87D20704	Bad data in Site Control File
+41	    -2016278781	2278688515	    0x87D20703	Item type not known in Site Control File
+42	    -2016278782	2278688514	    0x87D20702	Item not found in Site Control File
+43	    -2016278783	2278688513	    0x87D20701	Unknown property in Site Control File
+44	    -2016279006	2278688290	    0x87D20622	SRS datasource has been modified or deleted
+45	    -2016279007	2278688289	    0x87D20621	SRS root folder is not present
+46	    -2016279008	2278688288	    0x87D20620	SRS is not installed or not properly configured
+47	    -2016279019	2278688277	    0x87D20615	SRS web service is not running
+48	    -2016279278	2278688018	    0x87D20512	Machine is not assigned to this site
+49	    -2016279279	2278688017	    0x87D20511	Machine is not an SMS client
+50	    -2016279280	2278688016	    0x87D20510	Machine not found foreign key constraint
+51	    -2016279529	2278687767	    0x87D20417	Auto Deployment Rule download failed
+52	    -2016279530	2278687766	    0x87D20416	No rule filters specifed for the Auto Deployment Rule
+53	    -2016279531	2278687765	    0x87D20415	Auto Deployment Rule results exceeded maximum number of updates
+54	    -2016279532	2278687764	    0x87D20414	Cannot Configure WU/MU as upstream server on Peer Primary
+55	    -2016279533	2278687763	    0x87D20413	Active SUP not selected
+56	    -2016279537	2278687759	    0x87D2040F	WSUS Server component failure
+57	    -2016279538	2278687758	    0x87D2040E	WSUS Server Database connection failure
+58	    -2016279539	2278687757	    0x87D2040D	Failed to set Parent WSUS Configuration on the child sites
+59	    -2016279540	2278687756	    0x87D2040C	WSUS server not ready
+60	    -2016279797	2278687499	    0x87D2030B	Device Setting Item not found Foreign Key Constraint
+61	    -2016280054	2278687242	    0x87D2020A	SDM Type not found Foreign Key Constraint
+62	    -2016280055	2278687241	    0x87D20209	Related SDM Package not found Foreign Key Constraint
+63	    -2016280056	2278687240	    0x87D20208	SDM Package not found Foreign Key Constraint
+64	    -2016280057	2278687239	    0x87D20207	SDM Type not found Foreign Key Constraint
+65	    -2016280058	2278687238	    0x87D20206	EULA not found Foreign Key Constraint
+66	    -2016280059	2278687237	    0x87D20205	Update Source not found Foreign Key Constraint
+67	    -2016280060	2278687236	    0x87D20204	CI Type not found Foreign Key Constraint
+68	    -2016280061	2278687235	    0x87D20203	Category not found Foreign Key Constraint
+69	    -2016280062	2278687234	    0x87D20202	Configuration Item not found Foreign Key Constraint
+70	    -2016280063	2278687233	    0x87D20201	Operation on Old Configuration Item when a newer instance exits in the Database
+71	    -2016280319	2278686977	    0x87D20101	Collection not found foriegn key constraint
+72	    -2016280528	2278686768	    0x87D20030	Error while creating inbox
+73	    -2016280544	2278686752	    0x87D20020	Thread is signaled to be stopped
+74	    -2016280557	2278686739	    0x87D20013	Registry write error
+75	    -2016280558	2278686738	    0x87D20012	Registry read error
+76	    -2016280559	2278686737	    0x87D20011	Registry connection error
+77	    -2016280568	2278686728	    0x87D20008	SQL send batch error
+78	    -2016280569	2278686727	    0x87D20007	SQL queue row error
+79	    -2016280570	2278686726	    0x87D20006	SQL table binding error
+80	    -2016280571	2278686725	    0x87D20005	SQL deadlock error
+81	    -2016280572	2278686724	    0x87D20004	SQL error while registering type
+82	    -2016280573	2278686723	    0x87D20003	SQl Error
+83	    -2016280574	2278686722	    0x87D20002	SQL connection error
+84	    -2016280575	2278686721	    0x87D20001	Invalid data
+85	    -2016281107	2278686189	    0x87D1FDED	Unsupported setting discovery source
+86	    -2016281108	2278686188	    0x87D1FDEC	Referenced setting not found in CI
+87	    -2016281109	2278686187	    0x87D1FDEB	Data type conversion failed
+88	    -2016281110	2278686186	    0x87D1FDEA	Invalid parameter to CIM setting
+89	    -2016281111	2278686185	    0x87D1FDE9	Not applicable for this device
+90	    -2016281112	2278686184	    0x87D1FDE8	Remediation failed
+91	    -2016341109	2278626187	    0x87D1138B	iOS device has returned an error
+92	    -2016341110	2278626186	    0x87D1138A	iOS device has rejected the command due to incorrect format
+93	    -2016341111	2278626185	    0x87D11389	iOS device has returned an unexpected Idle status
+94	    -2016341112	2278626184	    0x87D11388	iOS device is currently busy
+95	    -2016344008	2278623288	    0x87D10838	(1404): Certificate access denied
+96	    -2016344009	2278623287	    0x87D10837	(1403): Certificate not found
+97	    -2016344010	2278623286	    0x87D10836	DCMO(1402): The Operation failed
+98	    -2016344011	2278623285	    0x87D10835	DCMO(1401): User chose not to accept the operation when prompted
+99	    -2016344012	2278623284	    0x87D10834	DCMO(1400): Client error
+100	    -2016344108	2278623188	    0x87D107D4	DCMO(1204): Device Capability is disabled and User is allowed to re-enable it
+101	    -2016344109	2278623187	    0x87D107D3	DCMO(1203): Device Capability is disabled and User is not allowed to re-enable it
+102	    -2016344110	2278623186	    0x87D107D2	DCMO(1202): Enable operation is performed successfully but the Device Capability is currently detached
+103	    -2016344111	2278623185	    0x87D107D1	DCMO(1201): Enable operation is performed successfully and the Device Capability is currently attached
+104	    -2016344112	2278623184	    0x87D107D0	DCMO(1200): Operation is performed successfully
+105	    -2016344197	2278623099	    0x87D1077B	Operation not implemented on client
+106	    -2016344198	2278623098	    0x87D1077A	The package is an invalid upgrade
+107	    -2016344199	2278623097	    0x87D10779	Target location of package is not accessible
+108	    -2016344200	2278623096	    0x87D10778	Installer is busy doing some other operation
+109	    -2016344201	2278623095	    0x87D10777	Indicates that network failure aborted the operation
+110	    -2016344202	2278623094	    0x87D10776	The package has no rights to perform the operation
+111	    -2016344203	2278623093	    0x87D10775	Install/Uninstall Unknown error
+112	    -2016344204	2278623092	    0x87D10774	Mandatory file is in use and prevents the operation
+113	    -2016344205	2278623091	    0x87D10773	Package cannot be installed due to missing dependency
+114	    -2016344206	2278623090	    0x87D10772	Package cannot be installed due to security error
+115	    -2016344207	2278623089	    0x87D10771	Package validation failed.
+116	    -2016344208	2278623088	    0x87D10770	Installation of the package is not supported
+117	    -2016344209	2278623087	    0x87D1076F	Insufficient free memory in the drive to perform the operation
+118	    -2016344210	2278623086	    0x87D1076E	File is corrupted
+119	    -2016344211	2278623085	    0x87D1076D	User cancelled the operation
+120	    -2016344212	2278623084	    0x87D1076C	Application was successfully installed
+121	    -2016344512	2278622784	    0x87D10640	An invalid OMA download descriptor received
+122	    -2016344593	2278622703	    0x87D105EF	Maximum number of http redirections has reached.
+123	    -2016344594	2278622702	    0x87D105EE	Non-download specific error
+124	    -2016344595	2278622701	    0x87D105ED	Internal error occurred. Most probably a programming error.
+125	    -2016344596	2278622700	    0x87D105EC	Error occurred in the transaction
+126	    -2016344597	2278622699	    0x87D105EB	General storage error
+127	    -2016344598	2278622698	    0x87D105EA	Not enough disk space for the content
+128	    -2016344599	2278622697	    0x87D105E9	Moving content file failed
+129	    -2016344600	2278622696	    0x87D105E8	Invalid download drive
+130	    -2016344601	2278622695	    0x87D105E7	File not found error
+131	    -2016344602	2278622694	    0x87D105E6	File write failed
+132	    -2016344603	2278622693	    0x87D105E5	Media where the download is being persisted removed
+133	    -2016344604	2278622692	    0x87D105E4	Download Manager cannot handle this URL
+134	    -2016344605	2278622691	    0x87D105E3	Error in destination filename
+135	    -2016344606	2278622690	    0x87D105E2	Destination file cannot be opened/created
+136	    -2016344607	2278622689	    0x87D105E1	Unhandled HTTP error code
+137	    -2016344608	2278622688	    0x87D105E0	404: object not found
+138	    -2016344609	2278622687	    0x87D105DF	412: partial content cannot be downloaded
+139	    -2016344610	2278622686	    0x87D105DE	Paused content is expired
+140	    -2016344611	2278622685	    0x87D105DD	Resuming progressive download failed
+141	    -2016344711	2278622585	    0x87D10579	Connection failed. No network coverage
+142	    -2016344713	2278622583	    0x87D10577	Unknown error related to protocol
+143	    -2016344810	2278622486	    0x87D10516	Requested operation is invalid for this protocol
+144	    -2016344811	2278622485	    0x87D10515	Requested protocol is not known
+145	    -2016344813	2278622483	    0x87D10513	Unknown error related to remote content
+146	    -2016344907	2278622389	    0x87D104B5	Content needed to resent but this failed
+147	    -2016344908	2278622388	    0x87D104B4	Remote server required authentication but credentials supplied if any were not accepted
+148	    -2016344909	2278622387	    0x87D104B3	Remote content was not found at the server
+149	    -2016344910	2278622386	    0x87D104B2	Operation requested on remote content is not permitted
+150	    -2016344911	2278622385	    0x87D104B1	Access to remote content denied
+151	    -2016344913	2278622383	    0x87D104AF	Unknown proxy related error
+152	    -2016345007	2278622289	    0x87D10451	Proxy authentication required or proxy refused the supplied credentials if any
+153	    -2016345008	2278622288	    0x87D10450	Connection to the proxy timed out
+154	    -2016345009	2278622287	    0x87D1044F	Invalid proxy host name
+155	    -2016345010	2278622286	    0x87D1044E	Proxy server closed the connection prematurely
+156	    -2016345011	2278622285	    0x87D1044D	Connection to proxy server was refused
+157	    -2016345061	2278622235	    0x87D1041B	Detection rules not present
+158	    -2016345063	2278622233	    0x87D10419	Unknown network error
+159	    -2016345103	2278622193	    0x87D103F1	Remote server unavailable
+160	    -2016345104	2278622192	    0x87D103F0	Network authentication failed
+161	    -2016345105	2278622191	    0x87D103EF	Temporary network failure
+162	    -2016345106	2278622190	    0x87D103EE	Encrypted channel could not be established
+163	    -2016345107	2278622189	    0x87D103ED	Operation was canceled before it was finished
+164	    -2016345108	2278622188	    0x87D103EC	Connection to the remote server timed out
+165	    -2016345109	2278622187	    0x87D103EB	Invalid host name
+166	    -2016345110	2278622186	    0x87D103EA	Remote server closed the connection prematurely
+167	    -2016345111	2278622185	    0x87D103E9	Remote server refused the connection
+168	    -2016345112	2278622184	    0x87D103E8	Error Unknown
+169	    -2016345595	2278621701	    0x87D10205	Syncml: The response to an atomic command was too large to fit in a single message.
+170	    -2016345596	2278621700	    0x87D10204	Syncml: Command was inside Atomic element and Atomic failed. This command was not rolled back successfully.
+171	    -2016345598	2278621698	    0x87D10202	Syncml: The SyncML command was not completed successfully since the operation was already cancelled before processing the command.
+172	    -2016345599	2278621697	    0x87D10201	Syncml: The recipient does not support or refuses to support the specified version of the SyncML Synchronization Protocol used in the request SyncML Message.
+173	    -2016345600	2278621696	    0x87D10200	Syncml: An application error occurred during the synchronization session.
+174	    -2016345601	2278621695	    0x87D101FF	Syncml: A severe error occurred in the server while processing the request.
+175	    -2016345602	2278621694	    0x87D101FE	Syncml: An error occurred while processing the request. The error is related to a failure in the recipient data store.
+176	    -2016345603	2278621693	    0x87D101FD	Syncml: Reserved for future use.
+177	    -2016345604	2278621692	    0x87D101FC	Syncml: An error occurred that necessitates a refresh of the current synchronization state of the client with the server.
+178	    -2016345605	2278621691	    0x87D101FB	Syncml: The error caused all SyncML commands within an Atomic element type to fail.
+179	    -2016345606	2278621690	    0x87D101FA	Syncml: An application error occurred while processing the request.
+180	    -2016345607	2278621689	    0x87D101F9	Syncml: The recipient does not support or refuses to support the specified version of SyncML DTD used in the request SyncML Message.
+181	    -2016345608	2278621688	    0x87D101F8	Syncml: The recipient while acting as a gateway or proxy did not receive a timely response from the upstream recipient specified by the URI (e.g. HTTP FTP LDAP) or some other auxiliary recipient (e.g. DNS) it needed to access in attempting to complete the request.
+182	    -2016345609	2278621687	    0x87D101F7	Syncml: The recipient is currently unable to handle the request due to a temporary overloading or maintenance of the recipient.
+183	    -2016345610	2278621686	    0x87D101F6	Syncml: The recipient while acting as a gateway or proxy received an invalid response from the upstream recipient it accessed in attempting to fulfill the request.
+184	    -2016345611	2278621685	    0x87D101F5	Syncml: The recipient does not support the command required to fulfill the request.
+185	    -2016345612	2278621684	    0x87D101F4	Syncml: The recipient encountered an unexpected condition which prevented it from fulfilling the request
+186	    -2016345684	2278621612	    0x87D101AC	Syncml: Move failed
+187	    -2016345685	2278621611	    0x87D101AB	Syncml: Parent cannot be deleted since it contains children.
+188	    -2016345686	2278621610	    0x87D101AA	Syncml: Partial item not accepted.
+189	    -2016345687	2278621609	    0x87D101A9	Syncml: The requested command failed because the sender does not have adequate access control permissions (ACL) on the recipient.
+190	    -2016345688	2278621608	    0x87D101A8	Syncml: The chunked object was received but the size of the received object did not match the size declared within the first chunk.
+191	    -2016345689	2278621607	    0x87D101A7	Syncml: The requested command failed because the “Soft Deleted” item was previously “Hard Deleted” on the server.
+192	    -2016345690	2278621606	    0x87D101A6	Syncml: The requested command failed on the server because the CGI scripting in the LocURI was incorrectly formed.
+193	    -2016345691	2278621605	    0x87D101A5	Syncml: The requested command failed on the server because the specified search grammar was not known.
+194	    -2016345692	2278621604	    0x87D101A4	Syncml: The recipient has no more storage space for the remaining synchronization data.
+195	    -2016345693	2278621603	    0x87D101A3	Syncml: The client request created a conflict which was resolved by the server command winning.
+196	    -2016345694	2278621602	    0x87D101A2	Syncml: The requested Put or Add command failed because the target already exists.
+197	    -2016345695	2278621601	    0x87D101A1	Syncml: The request failed at this time and the originator should retry the request later.
+198	    -2016345696	2278621600	    0x87D101A0	Syncml: The request failed because the specified byte size in the request was too big.
+199	    -2016345697	2278621599	    0x87D1019F	Syncml: Unsupported media type or format.
+200	    -2016345698	2278621598	    0x87D1019E	Syncml: The requested command failed because the target URI is too long for what the recipient is able or willing to process.
+201	    -2016345699	2278621597	    0x87D1019D	Syncml: The recipient is refusing to perform the requested command because the requested item is larger than the recipient is able or willing to process.
+202	    -2016345700	2278621596	    0x87D1019C	Syncml: The requested command failed on the recipient because it was incomplete or incorrectly formed.
+203	    -2016345701	2278621595	    0x87D1019B	Syncml: The requested command must be accompanied by byte size or length information in the Meta element type.
+204	    -2016345702	2278621594	    0x87D1019A	Syncml: The requested target is no longer on the recipient and no forwarding URI is known.
+205	    -2016345703	2278621593	    0x87D10199	Syncml: The requested failed because of an update conflict between the client and server versions of the data.
+206	    -2016345704	2278621592	    0x87D10198	Syncml: An expected message was not received within the required period of time.
+207	    -2016345705	2278621591	    0x87D10197	Syncml: The requested command failed because the originator must provide proper authentication.
+208	    -2016345706	2278621590	    0x87D10196	Syncml: The requested command failed because an optional feature in the request was not supported.
+209	    -2016345707	2278621589	    0x87D10195	Syncml: The requested command is not allowed on the target.
+210	    -2016345708	2278621588	    0x87D10194	Syncml: The requested target was not found.
+211	    -2016345709	2278621587	    0x87D10193	Syncml: The requested command failed but the recipient understood the requested command.
+212	    -2016345710	2278621586	    0x87D10192	Syncml: The requested command failed because proper payment isneeded.
+213	    -2016345711	2278621585	    0x87D10191	Syncml: The requested command failed because the requestor must provide proper authentication.
+214	    -2016345712	2278621584	    0x87D10190	Syncml: The requested command could not be performed because of malformed syntax in the command.
+215	    -2016345807	2278621489	    0x87D10131	Syncml: The requested target must be accessed through the specified proxy URI.
+216	    -2016345808	2278621488	    0x87D10130	Syncml:The requested SyncML command was not executed on the target.
+217	    -2016345809	2278621487	    0x87D1012F	Syncml: The requested target can be found at another URI.
+218	    -2016345810	2278621486	    0x87D1012E	Syncml: The requested target has temporarily moved to a different URI.
+219	    -2016345811	2278621485	    0x87D1012D	Syncml: The requested target has a new URI.
+220	    -2016345812	2278621484	    0x87D1012C	Syncml: The requested target is one of a number of multiple alternatives requested target.
+221	    -2016346011	2278621285	    0x87D10065	Syncml: The specified SyncML command is being carried out but has not yet completed.
+222	    -2016403452	2278563844	    0x87D02004	The software distribution policy was not found.
+223	    -2016403454	2278563842	    0x87D02002	The software distribution policy for this program was not found.
+224	    -2016406894	2278560402	    0x87D01292	The virtual application is in use
+225	    -2016406895	2278560401	    0x87D01291	The virtual environment is not applicable
+226	    -2016406896	2278560400	    0x87D01290	An error occurred when querying the App-V WMI provider
+227	    -2016406897	2278560399	    0x87D0128F	The App-V sftmime command returned failure
+228	    -2016406898	2278560398	    0x87D0128E	Could not uninstall the App-V deployment type because of conflict. The published components in this DT are still published by other DTs. This DT will be always detected as long as other DTs are still installed.
+229	    -2016406900	2278560396	    0x87D0128C	Could not find streaming distribution point for the App-V package
+230	    -2016406901	2278560395	    0x87D0128B	The App-V application is not installed
+231	    -2016406902	2278560394	    0x87D0128A	The App-V client has reported a launch error
+232	    -2016406906	2278560390	    0x87D01286	The App-V package has already installed higher version by another deployment type so we cannot install a lower version of the package
+233	    -2016406907	2278560389	    0x87D01285	A dependent App-V package is not installed
+234	    -2016406911	2278560385	    0x87D01281	A supported App-V client is not installed
+235	    -2016406912	2278560384	    0x87D01280	Virtual application is currently in use
+236	    -2016406959	2278560337	    0x87D01251	The application deployment type handler could not be initialized. The deployment type might not be supported on this system.
+237	    -2016406960	2278560336	    0x87D01250	The computer restart cannot be initiated because a software installation job is in progress.
+238	    -2016407024	2278560272	    0x87D01210	Failed to get content locations.
+239	    -2016407036	2278560260	    0x87D01204	No distribution points were found for the requested content.
+240	    -2016407037	2278560259	    0x87D01203	The client cache is currently in use by a running program or by a download in progress.
+241	    -2016407038	2278560258	    0x87D01202	The content download cannot be performed because the total size of the client cache is smaller than the size of the requested content.
+242	    -2016407039	2278560257	    0x87D01201	The content download cannot be performed because there is not enough available space in cache or the disk is full.
+243	    -2016407040	2278560256	    0x87D01200	No content request found with the given handle.
+244	    -2016407286	2278560010	    0x87D0110A	A fatal error occurred while preparing to execute the program for example when creating the program execution environment making a network connection impersonating the user determining the file association information or when attempting to launch the program. This program execution will not be retried.
+245	    -2016407287	2278560009	    0x87D01109	Failed to verify that the given file is a valid installation package.
+246	    -2016407288	2278560008	    0x87D01108	Failed to access all the provided program locations. This program will not retry.
+247	    -2016407289	2278560007	    0x87D01107	Failed to access all the provided program locations. This program may retry if the maximum retry count has not been reached.
+248	    -2016407290	2278560006	    0x87D01106	Failed to verify the executable file is valid or to construct the associated command line.
+249	    -2016407291	2278560005	    0x87D01105	An error was encountered while getting the process information for the launched program and the program execution will not be monitored.
+250	    -2016407292	2278560004	    0x87D01104	The command line for this program is invalid.
+251	    -2016407293	2278560003	    0x87D01103	A non fatal error occurred while preparing to execute the program for example when creating the program execution environment making a network connection impersonating the user determining the file association information or when attempting to launch the program. This program execution will be retried if the retry count has not been exceeded.
+252	    -2016407294	2278560002	    0x87D01102	An error occurred while creating the execution context.
+253	    -2016407295	2278560001	    0x87D01101	A fatal error has been encountered while attempting to run the program. The program execution will not be retried.
+254	    -2016407296	2278560000	    0x87D01100	A non fatal error has been encountered while attempting to run the program. The program execution will be retried if the retry count has not been exceeded.
+255	    -2016407528	2278559768	    0x87D01018	The program cannot run at this time because the client is on the internet.
+256	    -2016407529	2278559767	    0x87D01017	The content hash string or hash version are empty or incorrect in the software distribution policy or the hash verification failed.
+257	    -2016407531	2278559765	    0x87D01015	Failed to notify caller that software distribution is paused because the paused state or paused cookie do not match.
+258	    -2016407532	2278559764	    0x87D01014	The program cannot run because it is targeted to a user requires user input or is set to run in user context.
+259	    -2016407533	2278559763	    0x87D01013	This program cannot run because it depends on another program that has not run successfully before.
+260	    -2016407534	2278559762	    0x87D01012	There is no program currently running.
+261	    -2016407535	2278559761	    0x87D01011	The execution request was not found.
+262	    -2016407536	2278559760	    0x87D01010	A system restart is in progress or there is a pending execution for this program which requires a computer restart.
+263	    -2016407543	2278559753	    0x87D01009	Failed to get data from WMI.
+264	    -2016407544	2278559752	    0x87D01008	Failed to indicate the client cache is currently in use.
+265	    -2016407546	2278559750	    0x87D01006	The requested program is not currently pending.
+266	    -2016407547	2278559749	    0x87D01005	The policy for this program does not exist or is invalid.
+267	    -2016407548	2278559748	    0x87D01004	The program is disabled.
+268	    -2016407550	2278559746	    0x87D01002	Another execution for this program is already pending.
+269	    -2016407551	2278559745	    0x87D01001	Another software execution is in progress or a restart is pending.
+270	    -2016409588	2278557708	    0x87D0080C	No WDS session availiable.
+271	    -2016409589	2278557707	    0x87D0080B	MCS Encountered WDS error.
+272	    -2016409590	2278557706	    0x87D0080A	Invalid MCS configuration.
+273	    -2016409591	2278557705	    0x87D00809	Package is not multicast enabled.
+274	    -2016409592	2278557704	    0x87D00808	Package is not multicast shared.
+275	    -2016409593	2278557703	    0x87D00807	Invalid path specified for Package.
+276	    -2016409594	2278557702	    0x87D00806	MCS Server is Busy with many clients.
+277	    -2016409595	2278557701	    0x87D00805	MCS Encryption is empty
+278	    -2016409596	2278557700	    0x87D00804	Error performing MCS healthcheck
+279	    -2016409597	2278557699	    0x87D00803	Error opening MCS session
+280	    -2016409598	2278557698	    0x87D00802	MCS protocol version mismatch
+281	    -2016409599	2278557697	    0x87D00801	General MCS Failure
+282	    -2016409600	2278557696	    0x87D00800	Content transfer manager job is in an unexpected state
+283	    -2016409835	2278557461	    0x87D00715	No updates specified in requested job
+284	    -2016409836	2278557460	    0x87D00714	User based install not allowed as system restart is pending
+285	    -2016409837	2278557459	    0x87D00713	Software updates detection results not received yet
+286	    -2016409838	2278557458	    0x87D00712	A system restart is required to complete the installation
+287	    -2016409839	2278557457	    0x87D00711	Software updates deployment not active yet i.e. start time is in future
+288	    -2016409840	2278557456	    0x87D00710	Failed to compare process creation time
+289	    -2016409841	2278557455	    0x87D0070F	Invalid updates installer path
+290	    -2016409842	2278557454	    0x87D0070E	Empty command line specified
+291	    -2016409843	2278557453	    0x87D0070D	Software update failed when attempted
+292	    -2016409844	2278557452	    0x87D0070C	Software update execution timeout
+293	    -2016409845	2278557451	    0x87D0070B	Failed to create process
+294	    -2016409846	2278557450	    0x87D0070A	Invalid command line
+295	    -2016409847	2278557449	    0x87D00709	Failed to resume the monitoring of the process
+296	    -2016409848	2278557448	    0x87D00708	Software Updates Install not required
+297	    -2016409849	2278557447	    0x87D00707	Job Id mismatch
+298	    -2016409850	2278557446	    0x87D00706	No active job exists
+299	    -2016409851	2278557445	    0x87D00705	Pause state required
+300	    -2016409852	2278557444	    0x87D00704	Hard reboot is pending
+301	    -2016409853	2278557443	    0x87D00703	Another software updates install job is in progress. Only one job is allowed at a time.
+302	    -2016409854	2278557442	    0x87D00702	Assignment policy not found
+303	    -2016409855	2278557441	    0x87D00701	Software updates download not allowed at this time
+304	    -2016409856	2278557440	    0x87D00700	Software updates installation not allowed at this time
+305	    -2016409959	2278557337	    0x87D00699	Scan is already in progress
+306	    -2016409960	2278557336	    0x87D00698	Software update being attempted is not actionable
+307	    -2016409961	2278557335	    0x87D00697	Software update is already installed but just requires a reboot to complete the installation
+308	    -2016409962	2278557334	    0x87D00696	Software update is already installed
+309	    -2016409963	2278557333	    0x87D00695	Incomplete scan results
+310	    -2016409964	2278557332	    0x87D00694	WSUS source already exists
+311	    -2016409965	2278557331	    0x87D00693	Windows Updates Agent version too low
+312	    -2016409966	2278557330	    0x87D00692	Group policy conflict
+313	    -2016409967	2278557329	    0x87D00691	Software update source not found
+314	    -2016409968	2278557328	    0x87D00690	Software update is not applicable
+315	    -2016409999	2278557297	    0x87D00671	Waiting for third-party orchestration engine to initiate installation
+316	    -2016410006	2278557290	    0x87D0066A	None of the child software updates of a bundle are applicable
+317	    -2016410007	2278557289	    0x87D00669	Not able to get software updates content locations at this time
+318	    -2016410008	2278557288	    0x87D00668	Software update still detected as actionable after apply
+319	    -2016410009	2278557287	    0x87D00667	No current or future service window exists to install software updates
+320	    -2016410010	2278557286	    0x87D00666	Software updates cannot be install outside service window
+321	    -2016410011	2278557285	    0x87D00665	No updates to process in the job
+322	    -2016410012	2278557284	    0x87D00664	Updates handler job was cancelled
+323	    -2016410013	2278557283	    0x87D00663	Failed to report installation status of software updates
+324	    -2016410014	2278557282	    0x87D00662	Failed to trigger installation of software updates
+325	    -2016410015	2278557281	    0x87D00661	Error while detecting updates status after installation success
+326	    -2016410016	2278557280	    0x87D00660	Unable to monitor a software update’s execution
+327	    -2016410023	2278557273	    0x87D00659	Error occurred reading policy for software update
+328	    -2016410024	2278557272	    0x87D00658	Software updates processing was cancelled
+329	    -2016410025	2278557271	    0x87D00657	Error while detecting software updates status after scan success
+330	    -2016410026	2278557270	    0x87D00656	Updates handler was unable to continue due to some generic internal error
+331	    -2016410027	2278557269	    0x87D00655	Failed to install one or more software updates
+332	    -2016410028	2278557268	    0x87D00654	Software update install failure occurred
+333	    -2016410029	2278557267	    0x87D00653	Software update download failure occurred
+334	    -2016410030	2278557266	    0x87D00652	Software update policy was not found
+335	    -2016410031	2278557265	    0x87D00651	Post install scan failed
+336	    -2016410032	2278557264	    0x87D00650	Pre install scan failed
+337	    -2016410060	2278557236	    0x87D00634	Legacy scanner not supported
+338	    -2016410061	2278557235	    0x87D00633	Offline scan is pending
+339	    -2016410062	2278557234	    0x87D00632	Online scan is pending
+340	    -2016410063	2278557233	    0x87D00631	Scan retry is pending
+341	    -2016410064	2278557232	    0x87D00630	Maximum retries exhausted
+342	    -2016410071	2278557225	    0x87D00629	Rescan of the updates is pending
+343	    -2016410072	2278557224	    0x87D00628	Invalid content location
+344	    -2016410073	2278557223	    0x87D00627	Process instance not found
+345	    -2016410074	2278557222	    0x87D00626	Invalid process instance information
+346	    -2016410104	2278557192	    0x87D00608	Invalid instance type
+347	    -2016410105	2278557191	    0x87D00607	Content not found
+348	    -2016410106	2278557190	    0x87D00606	Offline scan tool history not found
+349	    -2016410107	2278557189	    0x87D00605	Scan tool has been removed
+350	    -2016410108	2278557188	    0x87D00604	The ScanTool not found in job queue
+351	    -2016410109	2278557187	    0x87D00603	The ScanTool policy has been removed so cannot complete scan operation
+352	    -2016410110	2278557186	    0x87D00602	Content location request timeout occurred
+353	    -2016410111	2278557185	    0x87D00601	Scanning for updates timed out
+354	    -2016410112	2278557184	    0x87D00600	Scan Tool Policy not found
+355	    -2016410558	2278556738	    0x87D00442	An enforcement action (install/uninstall) was attempted for a simulated deployment.
+356	    -2016410559	2278556737	    0x87D00441	The deployment metadata is not available on the client.
+357	    -2016410560	2278556736	    0x87D00440	Expected policy documents are incomplete or missing.
+358	    -2016410592	2278556704	    0x87D00420	The detection rules refer to an unsupported WMI namespace.
+359	    -2016410621	2278556675	    0x87D00403	The detection rules contain an unsupported datatype.
+360	    -2016410622	2278556674	    0x87D00402	The detection rules contain an invalid operator.
+361	    -2016410623	2278556673	    0x87D00401	An incorrect XML expression was found when evaluating the detection rules.
+362	    -2016410624	2278556672	    0x87D00400	An unexpected error occurred when evaluating the detection rules.
+363	    -2016410832	2278556464	    0x87D00330	This application deployment type does not support being enforced with a required deployment
+364	    -2016410838	2278556458	    0x87D0032A	The uninstall command line is invalid
+365	    -2016410839	2278556457	    0x87D00329	Application requirement evaluation or detection failed
+366	    -2016410840	2278556456	    0x87D00328	Configuration item digest not found
+367	    -2016410841	2278556455	    0x87D00327	Script is not signed
+368	    -2016410842	2278556454	    0x87D00326	The application deployment metadata was not found in WMI
+369	    -2016410843	2278556453	    0x87D00325	Application was still detected after uninstall completed.
+370	    -2016410844	2278556452	    0x87D00324	The application was not detected after installation completed.
+371	    -2016410845	2278556451	    0x87D00323	No user is logged on.
+372	    -2016410846	2278556450	    0x87D00322	Rule conflict.
+373	    -2016410847	2278556449	    0x87D00321	The script execution has timed out.
+374	    -2016410848	2278556448	    0x87D00320	The script host has not been installed yet.
+375	    -2016410849	2278556447	    0x87D0031F	Script for discovery returned invalid data.
+376	    -2016410850	2278556446	    0x87D0031E	Unsupported configuration. The application is configured to Install for User but has been targeted to a machine device instead of the user.
+377	    -2016410851	2278556445	    0x87D0031D	Unsupported configuration. The application is targeted to a user but is configured to install when no user is logged in.
+378	    -2016410858	2278556438	    0x87D00316	CI Agent job was canceled.
+379	    -2016410859	2278556437	    0x87D00315	The CI version info data is not available.
+380	    -2016410860	2278556436	    0x87D00314	CI Version Info timed out.
+381	    -2016410983	2278556313	    0x87D00299	The client does not recognize this type of signature
+382	    -2016410984	2278556312	    0x87D00298	The client’s database record could not be validated
+383	    -2016410985	2278556311	    0x87D00297	Invalid key
+384	    -2016410986	2278556310	    0x87D00296	The client failed to process one or more CI documents
+385	    -2016410987	2278556309	    0x87D00295	Registration certificate is either missing or invalid
+386	    -2016410988	2278556308	    0x87D00294	Unable to verify Policy
+387	    -2016410989	2278556307	    0x87D00293	Client unable to Refresh Site server signing certificate
+388	    -2016410990	2278556306	    0x87D00292	Client unable to compute message signature for InBand Auth
+389	    -2016410991	2278556305	    0x87D00291	No task sequence policies assigned
+390	    -2016410992	2278556304	    0x87D00290	Job contains no items
+391	    -2016410999	2278556297	    0x87D00289	Failed to decompress CI documents
+392	    -2016411000	2278556296	    0x87D00288	Failed to decompress configuration item
+393	    -2016411001	2278556295	    0x87D00287	Signing certificate is missing
+394	    -2016411002	2278556294	    0x87D00286	Invalid SMS authority
+395	    -2016411003	2278556293	    0x87D00285	Search criteria verb is either missing or invalid
+396	    -2016411004	2278556292	    0x87D00284	Missing subject name
+397	    -2016411005	2278556291	    0x87D00283	Missing private key
+398	    -2016411006	2278556290	    0x87D00282	More than one certificate found but ‘select first cert’ was not set
+399	    -2016411007	2278556289	    0x87D00281	No certificate matching criteria specified
+400	    -2016411008	2278556288	    0x87D00280	Empty certificate store
+401	    -2016411009	2278556287	    0x87D0027F	SHA could not bind as NAP Agent might not be running
+402	    -2016411010	2278556286	    0x87D0027E	Bad HTTP status code
+403	    -2016411011	2278556285	    0x87D0027D	CI documents download failed due to hash mismatch
+404	    -2016411012	2278556284	    0x87D0027C	CI documents download timed out
+405	    -2016411013	2278556283	    0x87D0027B	General CI documents download failure
+406	    -2016411014	2278556282	    0x87D0027A	Configuration item download failed due to hash mismatch
+407	    -2016411015	2278556281	    0x87D00279	Configuration item download timed out
+408	    -2016411016	2278556280	    0x87D00278	General configuration item download failure
+409	    -2016411017	2278556279	    0x87D00277	Insufficient resources to complete the operation
+410	    -2016411018	2278556278	    0x87D00276	System restart is required
+411	    -2016411019	2278556277	    0x87D00275	Failed to acquire lock
+412	    -2016411020	2278556276	    0x87D00274	No callback completion interface specified
+413	    -2016411021	2278556275	    0x87D00273	Component has already been requested to pause
+414	    -2016411022	2278556274	    0x87D00272	Component is disabled
+415	    -2016411023	2278556273	    0x87D00271	Component is paused
+416	    -2016411024	2278556272	    0x87D00270	Component is not paused
+417	    -2016411025	2278556271	    0x87D0026F	Pause cookie did not match
+418	    -2016411026	2278556270	    0x87D0026E	Pause duration too big
+419	    -2016411027	2278556269	    0x87D0026D	Pause duration too small
+420	    -2016411028	2278556268	    0x87D0026C	Status not found
+421	    -2016411029	2278556267	    0x87D0026B	Agent type not found
+422	    -2016411030	2278556266	    0x87D0026A	Key type not found
+423	    -2016411031	2278556265	    0x87D00269	Required management point not found
+424	    -2016411032	2278556264	    0x87D00268	Compilation failed
+425	    -2016411033	2278556263	    0x87D00267	Download failed
+426	    -2016411034	2278556262	    0x87D00266	Inconsistent data
+427	    -2016411035	2278556261	    0x87D00265	Invalid store state
+428	    -2016411036	2278556260	    0x87D00264	Invalid operation
+429	    -2016411037	2278556259	    0x87D00263	Invalid message received from DTS
+430	    -2016411038	2278556258	    0x87D00262	The type of DTS message received is unknown
+431	    -2016411039	2278556257	    0x87D00261	Failed to persist configuration item definition
+432	    -2016411040	2278556256	    0x87D00260	Job state is not valid for the action being requested
+433	    -2016411041	2278556255	    0x87D0025F	Client disconnected
+434	    -2016411042	2278556254	    0x87D0025E	Encountered a message which was not sufficiently trusted to forward to an endpoint for processing
+435	    -2016411043	2278556253	    0x87D0025D	Encountered invalid XML document which could not be validated by its corresponding XML schema(s)
+436	    -2016411060	2278556236	    0x87D0024C	Encountered invalid XML schema document
+437	    -2016411061	2278556235	    0x87D0024B	Name already exists
+438	    -2016411062	2278556234	    0x87D0024A	The job is already connected
+439	    -2016411063	2278556233	    0x87D00249	Property is not valid for the given configuration item type
+440	    -2016411064	2278556232	    0x87D00248	There was an error in network communication
+441	    -2016411065	2278556231	    0x87D00247	A component required to perform the operation was missing or not registered
+442	    -2016411066	2278556230	    0x87D00246	There was an error evaluating the health of the client
+443	    -2016411067	2278556229	    0x87D00245	The object or subsystem has already been initialized
+444	    -2016411068	2278556228	    0x87D00244	The object or subsystem has not been initialized
+445	    -2016411069	2278556227	    0x87D00243	Public key mismatch
+446	    -2016411070	2278556226	    0x87D00242	Stored procedure failed
+447	    -2016411071	2278556225	    0x87D00241	Failed to connect to database
+448	    -2016411072	2278556224	    0x87D00240	Insufficient disk space
+449	    -2016411079	2278556217	    0x87D00239	Client id not found
+450	    -2016411080	2278556216	    0x87D00238	Public key not found
+451	    -2016411081	2278556215	    0x87D00237	Reply mode incompatible
+452	    -2016411082	2278556214	    0x87D00236	Low memory
+453	    -2016411083	2278556213	    0x87D00235	Syntax error occurred while parsing
+454	    -2016411084	2278556212	    0x87D00234	Internal endpoint cannot receive a remote message
+455	    -2016411085	2278556211	    0x87D00233	Message not trusted
+456	    -2016411086	2278556210	    0x87D00232	Message not signed
+457	    -2016411087	2278556209	    0x87D00231	Transient error
+458	    -2016411088	2278556208	    0x87D00230	Error logging on as given credentials
+459	    -2016411095	2278556201	    0x87D00229	Failed to get credentials
+460	    -2016411096	2278556200	    0x87D00228	Invalid endpoint
+461	    -2016411097	2278556199	    0x87D00227	Functionality disabled
+462	    -2016411098	2278556198	    0x87D00226	Invalid protocol
+463	    -2016411099	2278556197	    0x87D00225	Invalid address type
+464	    -2016411100	2278556196	    0x87D00224	Invalid message
+465	    -2016411101	2278556195	    0x87D00223	Version mismatch
+466	    -2016411102	2278556194	    0x87D00222	Operation cancelled
+467	    -2016411103	2278556193	    0x87D00221	Invalid user
+468	    -2016411104	2278556192	    0x87D00220	Invalid type
+469	    -2016411111	2278556185	    0x87D00219	Global service not set
+470	    -2016411112	2278556184	    0x87D00218	Invalid service settings
+471	    -2016411113	2278556183	    0x87D00217	Data is corrupt
+472	    -2016411114	2278556182	    0x87D00216	Invalid service parameter
+473	    -2016411115	2278556181	    0x87D00215	Item not found
+474	    -2016411116	2278556180	    0x87D00214	Invalid name length
+475	    -2016411117	2278556179	    0x87D00213	Timeout occurred
+476	    -2016411118	2278556178	    0x87D00212	Context is closed
+477	    -2016411119	2278556177	    0x87D00211	Invalid Address
+478	    -2016411120	2278556176	    0x87D00210	Invalid Translator
+479	    -2016411127	2278556169	    0x87D00209	Data type mismatch
+480	    -2016411128	2278556168	    0x87D00208	Invalid command
+481	    -2016411129	2278556167	    0x87D00207	Parsing error
+482	    -2016411130	2278556166	    0x87D00206	Invalid file
+483	    -2016411131	2278556165	    0x87D00205	Invalid path
+484	    -2016411132	2278556164	    0x87D00204	Data too large
+485	    -2016411133	2278556163	    0x87D00203	No data supplied
+486	    -2016411134	2278556162	    0x87D00202	Service is shutting down
+487	    -2016411135	2278556161	    0x87D00201	Incorrect name format
+488	    -2016411136	2278556160	    0x87D00200	Name not found
+489	    -2145058817	2149908479	    0x8024FFFF	There was a reporter error not covered by another error code.
+490	    -2145062907	2149904389	    0x8024F005	The specified callback cookie is not found.
+491	    -2145062908	2149904388	    0x8024F004	The server rejected an event because the server was too busy.
+492	    -2145062909	2149904387	    0x8024F003	The XML in the event namespace descriptor could not be parsed.
+493	    -2145062910	2149904386	    0x8024F002	The XML in the event namespace descriptor could not be parsed.
+494	    -2145062911	2149904385	    0x8024F001	The event cache file was defective.
+495	    -2145062913	2149904383	    0x8024EFFF	There was an expression evaluator error not covered by another WU_E_EE_* error code.
+496	    -2145067001	2149900295	    0x8024E007	An expression evaluator operation could not be completed because the cluster state of the computer could not be determined.
+497	    -2145067002	2149900294	    0x8024E006	An expression evaluator operation could not be completed because there was an invalid attribute.
+498	    -2145067003	2149900293	    0x8024E005	The expression evaluator could not be initialized.
+499	    -2145067004	2149900292	    0x8024E004	An expression evaluator operation could not be completed because the version of the serialized expression data is invalid.
+500	    -2145067005	2149900291	    0x8024E003	An expression evaluator operation could not be completed because an expression contains an incorrect number of metadata nodes.
+501	    -2145067006	2149900290	    0x8024E002	An expression evaluator operation could not be completed because an expression was invalid.
+502	    -2145067007	2149900289	    0x8024E001	An expression evaluator operation could not be completed because an expression was unrecognized.
+503	    -2145067009	2149900287	    0x8024DFFF	Windows Update Agent could not be updated because of an error not covered by another WU_E_SETUP_* error code.
+504	    -2145071082	2149896214	    0x8024D016	Windows Update Agent could not be updated because of an unknown error.
+505	    -2145071083	2149896213	    0x8024D015	Windows Update Agent is successfully updated but a reboot is required to complete the setup.
+506	    -2145071084	2149896212	    0x8024D014	Windows Update Agent is successfully updated but a reboot is required to complete the setup.
+507	    -2145071085	2149896211	    0x8024D013	Windows Update Agent could not be updated because the server does not contain update information for this version.
+508	    -2145071086	2149896210	    0x8024D012	Windows Update Agent must be updated before search can continue. An administrator is required to perform the operation.
+509	    -2145071087	2149896209	    0x8024D011	Windows Update Agent must be updated before search can continue.
+510	    -2145071088	2149896208	    0x8024D010	Windows Update Agent could not be updated because the registry contains invalid information.
+511	    -2145071089	2149896207	    0x8024D00F	Windows Update Agent could not be updated because the setup handler failed during execution.
+512	    -2145071090	2149896206	    0x8024D00E	Windows Update Agent setup package requires a reboot to complete installation.
+513	    -2145071091	2149896205	    0x8024D00D	Windows Update Agent setup is already running.
+514	    -2145071092	2149896204	    0x8024D00C	Windows Update Agent could not be updated because a restart of the system is required.
+515	    -2145071093	2149896203	    0x8024D00B	Windows Update Agent could not be updated because the system is configured to block the update.
+516	    -2145071094	2149896202	    0x8024D00A	Windows Update Agent could not be updated because the current system configuration is not supported.
+517	    -2145071095	2149896201	    0x8024D009	An update to the Windows Update Agent was skipped due to a directive in the wuident.cab file.
+518	    -2145071096	2149896200	    0x8024D008	An update to the Windows Update Agent was skipped because previous attempts to update have failed.
+519	    -2145071097	2149896199	    0x8024D007	Windows Update Agent could not be updated because regsvr32.exe returned an error.
+520	    -2145071098	2149896198	    0x8024D006	Windows Update Agent could not be updated because a WUA file on the target system is newer than the corresponding source file.
+521	    -2145071099	2149896197	    0x8024D005	Windows Update Agent could not be updated because the versions specified in the INF do not match the actual source file versions.
+522	    -2145071100	2149896196	    0x8024D004	Windows Update Agent could not be updated because setup initialization never completed successfully.
+523	    -2145071101	2149896195	    0x8024D003	Windows Update Agent could not be updated because of an internal error that caused setup initialization to be performed twice.
+524	    -2145071102	2149896194	    0x8024D002	Windows Update Agent could not be updated because the wuident.cab file contains invalid information.
+525	    -2145071103	2149896193	    0x8024D001	Windows Update Agent could not be updated because an INF file contains invalid information.
+526	    -2145071105	2149896191	    0x8024CFFF	A driver error not covered by another WU_E_DRV_* code.
+527	    -2145075193	2149892103	    0x8024C007	Information required for the synchronization of applicable printers is missing.
+528	    -2145075194	2149892102	    0x8024C006	Driver synchronization failed.
+529	    -2145075195	2149892101	    0x8024C005	The driver update is missing a required attribute.
+530	    -2145075196	2149892100	    0x8024C004	The driver update is missing metadata.
+531	    -2145075197	2149892099	    0x8024C003	The registry type read for the driver does not match the expected type.
+532	    -2145075198	2149892098	    0x8024C002	A property for the driver could not be found. It may not conform with required specifications.
+533	    -2145075199	2149892097	    0x8024C001	A driver was skipped.
+534	    -2145079291	2149888005	    0x8024B005	Cannot cancel a non-scheduled install.
+535	    -2145079292	2149888004	    0x8024B004	The task was stopped and needs to be run again to complete.
+536	    -2145079293	2149888003	    0x8024B003	The operation cannot be completed since the task is not yet started.
+537	    -2145079294	2149888002	    0x8024B002	The operation cannot be completed since the task status is currently disabled.
+538	    -2145079295	2149888001	    0x8024B001	The task is currently in progress.
+539	    -2145079297	2149887999	    0x8024AFFF	An Automatic Updates error not covered by another WU_E_AU * code.
+540	    -2145083386	2149883910	    0x8024A006	The default service registered with AU changed during the search.
+541	    -2145083387	2149883909	    0x8024A005	No unmanaged service is registered with AU.
+542	    -2145083388	2149883908	    0x8024A004	Automatic Updates was unable to process incoming requests because it was paused.
+543	    -2145083389	2149883907	    0x8024A003	The old version of the Automatic Updates client was disabled.
+544	    -2145083390	2149883906	    0x8024A002	The old version of the Automatic Updates client has stopped because the WSUS server has been upgraded.
+545	    -2145083392	2149883904	    0x8024A000	Automatic Updates was unable to service incoming requests.
+546	    -2145087483	2149879813	    0×80249005	A WMI error occurred when enumerating the instances for a particular class.
+547	    -2145087484	2149879812	    0×80249004	There was an inventory error not covered by another error code.
+548	    -2145087485	2149879811	    0×80249003	Failed to upload inventory result to the server.
+549	    -2145087486	2149879810	    0×80249002	Failed to get the requested inventory type from the server.
+550	    -2145087487	2149879809	    0×80249001	Parsing of the rule file failed.
+551	    -2145087489	2149879807	    0x80248FFF	A data store error not covered by another WU_E_DS_* code.
+552	    -2145091555	2149875741	    0x8024801D	A data store operation did not complete because it was requested with an impersonated identity.
+553	    -2145091556	2149875740	    0x8024801C	The data store requires a session reset; release the session and retry with a new session.
+554	    -2145091557	2149875739	    0x8024801B	The schema of the current data store and the schema of a table in a backup XML document do not match.
+555	    -2145091558	2149875738	    0x8024801A	A request was declined because the operation is not allowed.
+556	    -2145091559	2149875737	    0×80248019	A request to remove the Windows Update service or to unregister it with Automatic Updates was declined because it is a built-in service and/or Automatic Updates cannot fall back to another service.
+557	    -2145091560	2149875736	    0×80248018	A table was not closed because it is not associated with the session.
+558	    -2145091561	2149875735	    0×80248017	A table was not closed because it is not associated with the session.
+559	    -2145091562	2149875734	    0×80248016	A request to hide an update was declined because it is a mandatory update or because it was deployed with a deadline.
+560	    -2145091563	2149875733	    0×80248015	An operation did not complete because the registration of the service has expired.
+561	    -2145091564	2149875732	    0×80248014	An operation did not complete because the service is not in the data store.
+562	    -2145091565	2149875731	    0×80248013	The server sent the same update to the client with two different revision IDs.
+563	    -2145091567	2149875729	    0×80248011	Could not create a data store object in another process.
+564	    -2145091568	2149875728	    0×80248010	The data store is not allowed to be registered with COM in the current process.
+565	    -2145091569	2149875727	    0x8024800F	The data store could not be initialized because it was locked by another process.
+566	    -2145091570	2149875726	    0x8024800E	The row was not added because an existing row has the same primary key.
+567	    -2145091571	2149875725	    0x8024800D	The category was not added because it contains no parent categories and is not a top-level category itself.
+568	    -2145091572	2149875724	    0x8024800C	The data store section could not be locked within the allotted time.
+569	    -2145091573	2149875723	    0x8024800B	The update was not deleted because it is still referenced by one or more services.
+570	    -2145091574	2149875722	    0x8024800A	The update was not processed because its update handler could not be recognized.
+571	    -2145091575	2149875721	    0×80248009	The data store is missing required information or has a reference to missing license terms file localized property or linked row.
+572	    -2145091576	2149875720	    0×80248008	The data store is missing required information or has a NULL in a table column that requires a non-null value.
+573	    -2145091577	2149875719	    0×80248007	The information requested is not in the data store.
+574	    -2145091578	2149875718	    0×80248006	The current and expected versions of the data store do not match.
+575	    -2145091579	2149875717	    0×80248005	A table could not be opened because the table is not in the data store.
+576	    -2145091580	2149875716	    0×80248004	The data store contains a table with unexpected columns.
+577	    -2145091581	2149875715	    0×80248003	The data store is missing a table.
+578	    -2145091582	2149875714	    0×80248002	The current and expected states of the data store do not match.
+579	    -2145091583	2149875713	    0×80248001	An operation failed because the data store was in use.
+580	    -2145091584	2149875712	    0×80248000	An operation failed because Windows Update Agent is shutting down.
+581	    -2145091585	2149875711	    0x80247FFF	Search using the scan package failed.
+582	    -2145095675	2149871621	    0×80247005	The service is not registered.
+583	    -2145095676	2149871620	    0×80247004	The size of the event payload submitted is invalid.
+584	    -2145095677	2149871619	    0×80247003	An invalid event payload was specified.
+585	    -2145095678	2149871618	    0×80247002	An operation could not be completed because the scan package requires a greater version of the Windows Update Agent.
+586	    -2145095679	2149871617	    0×80247001	An operation could not be completed because the scan package was invalid.
+587	    -2145095681	2149871615	    0x80246FFF	There was a download manager error not covered by another WU_E_DM_* error code.
+588	    -2145099764	2149867532	    0x8024600C	A download failed because the current network limits downloads by update size for the update service.
+589	    -2145099765	2149867531	    0x8024600B	A download must be restarted because the update content changed in a new revision.
+590	    -2145099766	2149867530	    0x8024600A	A download must be restarted because the location of the source of the download has changed.
+591	    -2145099767	2149867529	    0×80246009	A download manager operation failed because there was an unspecified Background Intelligent Transfer Service (BITS) transfer error.
+592	    -2145099768	2149867528	    0×80246008	A download manager operation failed because the download manager was unable to connect the Background Intelligent Transfer Service (BITS).
+593	    -2145099769	2149867527	    0×80246007	The update has not been downloaded.
+594	    -2145099770	2149867526	    0×80246006	A download manager operation could not be completed because the version of Background Intelligent Transfer Service (BITS) is incompatible.
+595	    -2145099771	2149867525	    0×80246005	A download manager operation could not be completed because the network connection was unavailable.
+596	    -2145099772	2149867524	    0×80246004	An operation could not be completed because a download request is required from the download handler.
+597	    -2145099773	2149867523	    0×80246003	A download manager operation could not be completed because the file metadata requested an unrecognized hash algorithm.
+598	    -2145099774	2149867522	    0×80246002	A download manager operation could not be completed because the file digest was not recognized.
+599	    -2145099775	2149867521	    0×80246001	A download manager operation could not be completed because the requested file does not have a URL.
+600	    -2145099777	2149867519	    0x80245FFF	The redirector failed for reasons not covered by another WU_E_REDIRECTOR_* error code.
+601	    -2145103826	2149863470	    0x8024502E	A redirector recovery action did not complete because the server is managed.
+602	    -2145103827	2149863469	    0x8024502D	Windows Update Agent failed to download a redirector cabinet file with a new redirectorId value from the server during the recovery.
+603	    -2145103869	2149863427	    0×80245003	The redirectorId in the downloaded redirector cab is less than in the cached cab.
+604	    -2145103870	2149863426	    0×80245002	The redirector XML document is missing some required information.
+605	    -2145103871	2149863425	    0×80245001	The redirector XML document could not be loaded into the DOM class.
+606	    -2145103873	2149863423	    0x80244FFF	A communication error not covered by another WU_E_PT_* error code.
+607	    -2145107915	2149859381	    0×80244035	External cab processor was unable to get file locations.
+608	    -2145107916	2149859380	    0×80244034	An external cab file could not be decompressed.
+609	    -2145107917	2149859379	    0×80244033	The file digest could not be extracted from an external cab file.
+610	    -2145107918	2149859378	    0×80244032	External cab processor found invalid metadata.
+611	    -2145107919	2149859377	    0×80244031	The format of a metadata file was invalid.
+612	    -2145107920	2149859376	    0×80244030	The external cab processor initialization did not complete.
+613	    -2145107921	2149859375	    0x8024402F	External cab file processing completed with some errors.
+614	    -2145107924	2149859372	    0x8024402C	Same as ERROR_WINHTTP_NAME_NOT_RESOLVED – the proxy server or target server name cannot be resolved.
+615	    -2145107925	2149859371	    0x8024402B	The HTTP request could not be completed and the reason did not correspond to any of the WU_E_PT_HTTP_* error codes.
+616	    -2145107926	2149859370	    0x8024402A	A configuration property value was missing.
+617	    -2145107927	2149859369	    0×80244029	A configuration property value was wrong.
+618	    -2145107928	2149859368	    0×80244028	Windows Update Agent was unable to create any valid authentication cookies.
+619	    -2145107929	2149859367	    0×80244027	The server returned an empty authentication information list.
+620	    -2145107930	2149859366	    0×80244026	Operation failed because Windows Update Agent does not support registration with a non-WSUS server.
+621	    -2145107931	2149859365	    0×80244025	Operation failed due to a changed file location; refresh internal state and resend.
+622	    -2145107932	2149859364	    0×80244024	Same as HTTP status 505 – the server does not support the HTTP protocol version used for the request.
+623	    -2145107933	2149859363	    0×80244023	Same as HTTP status 503 – the request was timed out waiting for a gateway.
+624	    -2145107934	2149859362	    0×80244022	Same as HTTP status 503 – the service is temporarily overloaded.
+625	    -2145107935	2149859361	    0×80244021	Same as HTTP status 502 – the server while acting as a gateway or proxy received an invalid response from the upstream server it accessed in attempting to fulfill the request.
+626	    -2145107936	2149859360	    0×80244020	Same as HTTP status 500 – server does not support the functionality required to fulfill the request.
+627	    -2145107937	2149859359	    0x8024401F	Same as HTTP status 500 – an error internal to the server prevented fulfilling the request.
+628	    -2145107938	2149859358	    0x8024401E	Same as HTTP status 410 – requested resource is no longer available at the server.
+629	    -2145107939	2149859357	    0x8024401D	Same as HTTP status 409 – the request was not completed due to a conflict with the current state of the resource.
+630	    -2145107940	2149859356	    0x8024401C	Same as HTTP status 408 – the server timed out waiting for the request.
+631	    -2145107941	2149859355	    0x8024401B	Same as HTTP status 407 – proxy authentication is required.
+632	    -2145107942	2149859354	    0x8024401A	Same as HTTP status 405 – the HTTP method is not allowed.
+633	    -2145107943	2149859353	    0×80244019	Same as HTTP status 404 – the server cannot find the requested URI (Uniform Resource Identifier).
+634	    -2145107944	2149859352	    0×80244018	Same as HTTP status 403 – server understood the request but declined to fulfill it.
+635	    -2145107945	2149859351	    0×80244017	Same as HTTP status 401 – the requested resource requires user authentication.
+636	    -2145107946	2149859350	    0×80244016	Same as HTTP status 400 – the server could not process the request due to invalid syntax.
+637	    -2145107947	2149859349	    0×80244015	The reply from the server indicates that the server was changed or the cookie was invalid; refresh the state of the internal cache and retry.
+638	    -2145107948	2149859348	    0×80244014	Cannot determine computer LSID.
+639	    -2145107949	2149859347	    0×80244013	The computer name could not be determined.
+640	    -2145107950	2149859346	    0×80244012	Initialization failed because the object was already initialized.
+641	    -2145107951	2149859345	    0×80244011	WUServer policy value is missing in the registry.
+642	    -2145107952	2149859344	    0×80244010	The number of round trips to the server exceeded the maximum limit.
+643	    -2145107953	2149859343	    0x8024400F	There was an unspecified Windows Management Instrumentation (WMI) error.
+644	    -2145107954	2149859342	    0x8024400E	Same as SOAP_E_SERVER – The SOAP message could not be processed due to a server error; resend later.
+645	    -2145107955	2149859341	    0x8024400D	Same as SOAP_E_CLIENT – SOAP client found the message was malformed; fix before resending.
+646	    -2145107956	2149859340	    0x8024400C	Same as SOAP_E_MUST_UNDERSTAND – SOAP client was unable to understand a header.
+647	    -2145107957	2149859339	    0x8024400B	Same as SOAP_E_VERSION_MISMATCH – SOAP client found an unrecognizable namespace for the SOAP envelope.
+648	    -2145107958	2149859338	    0x8024400A	Same as SOAPCLIENT_PARSE_ERROR – SOAP client failed to parse the response from the server.
+649	    -2145107959	2149859337	    0×80244009	Same as SOAPCLIENT_READ_ERROR – SOAP client failed while reading the response from the server.
+650	    -2145107960	2149859336	    0×80244008	Same as SOAPCLIENT_PARSEFAULT_ERROR – SOAP client failed to parse a SOAP fault.
+651	    -2145107961	2149859335	    0×80244007	Same as SOAPCLIENT_SOAPFAULT – SOAP client failed because there was a SOAP fault for reasons of WU_E_PT_SOAP_* error codes.
+652	    -2145107962	2149859334	    0×80244006	Same as SOAPCLIENT_SERVER_ERROR – SOAP client failed because there was a server error.
+653	    -2145107963	2149859333	    0×80244005	Same as SOAPCLIENT_SEND_ERROR – SOAP client failed to send a message for reasons of WU_E_WINHTTP_* error codes.
+654	    -2145107964	2149859332	    0×80244004	Same as SOAPCLIENT_CONNECT_ERROR – SOAP client failed to connect to the server.
+655	    -2145107965	2149859331	    0×80244003	Same as SOAPCLIENT_GENERATE_ERROR – SOAP client failed to generate the request.
+656	    -2145107966	2149859330	    0×80244002	Same as SOAPCLIENT_OUTOFMEMORY – SOAP client failed because it ran out of memory.
+657	    -2145107967	2149859329	    0×80244001	Same as SOAPCLIENT_INITIALIZE_ERROR – initialization of the SOAP client failed possibly because of an MSXML installation failure.
+658	    -2145107968	2149859328	    0×80244000	WU_E_PT_SOAPCLIENT_* error codes map to the SOAPCLIENT_ERROR enum of the ATL Server Library.
+659	    -2145107969	2149859327	    0x80243FFF	There was a user interface error not covered by another WU_E_AUCLIENT_* error code.
+660	    -2145107970	2149859326	    0x80243FFE	Unsupported version of WU client UI exported functions.
+661	    -2145107971	2149859325	    0x80243FFD	Unable to show UI when in non-UI mode; WU client UI modules may not be installed.
+662	    -2145112060	2149855236	    0×80243004	A failure occurred when trying to create an icon in the taskbar notification area.
+663	    -2145112061	2149855235	    0×80243003	The results of download and installation are not available; the operation may have failed to start.
+664	    -2145112062	2149855234	    0×80243002	The results of download and installation could not be read from the registry due to an invalid data format.
+665	    -2145112063	2149855233	    0×80243001	The results of download and installation could not be read from the registry due to an unrecognized data format version.
+666	    -2145112065	2149855231	    0x80242FFF	An update handler error not covered by another WU_E_UH_* code.
+667	    -2145116133	2149851163	    0x8024201B	The targeted session for isntall is invalid.
+668	    -2145116134	2149851162	    0x8024201A	The installer does not support the installation configuration.
+669	    -2145116135	2149851161	    0×80242019	The custom installer signature did not match the signature required by the update.
+670	    -2145116136	2149851160	    0×80242018	A callback installer called back with an error.
+671	    -2145116137	2149851159	    0×80242017	The OS servicing stack must be updated before this update is downloaded or installed.
+672	    -2145116138	2149851158	    0×80242016	The state of the update after its post-reboot operation has completed is unexpected.
+673	    -2145116139	2149851157	    0×80242015	The result of the post-reboot operation for the update could not be determined.
+674	    -2145116140	2149851156	    0×80242014	The post-reboot operation for the update is still in progress.
+675	    -2145116141	2149851155	    0×80242013	The update metadata contains an invalid CBS package identifier.
+676	    -2145116142	2149851154	    0×80242012	The update handler has received an unexpected response from CBS.
+677	    -2145116143	2149851153	    0×80242011	The update handler has exceeded the maximum number of download requests.
+678	    -2145116144	2149851152	    0×80242010	The update handler failed to fall back to the self-contained content.
+679	    -2145116145	2149851151	    0x8024200F	The file names contained in the update metadata and in the update package are inconsistent.
+680	    -2145116146	2149851150	    0x8024200E	The update handler failed to send notification of the status of the install (uninstall) operation.
+681	    -2145116147	2149851149	    0x8024200D	The update handler did not install the update because it needs to be downloaded again.
+682	    -2145116148	2149851148	    0x8024200C	The update handler should download self-contained content rather than delta-compressed content for the update.
+683	    -2145116149	2149851147	    0x8024200B	The installer failed to install (uninstall) one or more updates.
+684	    -2145116150	2149851146	    0x8024200A	A request to the handler to install an update could not be completed because the update requires user input.
+685	    -2145116151	2149851145	    0×80242009	An operation could not be completed because the handler-specific metadata is invalid.
+686	    -2145116152	2149851144	    0×80242008	An operation being done by the update handler was cancelled.
+687	    -2145116153	2149851143	    0×80242007	An operation could not be completed because the installer exceeded the time limit.
+688	    -2145116154	2149851142	    0×80242006	A handler operation could not be completed because the update contains invalid metadata.
+689	    -2145116155	2149851141	    0×80242005	An operation did not complete because the wrong handler was specified.
+690	    -2145116156	2149851140	    0×80242004	A request for the handler to install (uninstall) an update could not be completed because the update does not support install (uninstall).
+691	    -2145116157	2149851139	    0×80242003	A remote update handler could not be created because one already exists.
+692	    -2145116158	2149851138	    0×80242002	A request for an update handler could not be completed because the handler could not be recognized.
+693	    -2145116159	2149851137	    0×80242001	A request for a remote update handler could not be completed because the handler is local only.
+694	    -2145116160	2149851136	    0×80242000	A request for a remote update handler could not be completed because no remote process is available.
+695	    -2145116161	2149851135	    0x80241FFF	Search may have missed some updates because there was a failure of the Windows Installer.
+696	    -2145120252	2149847044	    0×80241004	An update could not be applied because the application is installed per-user.
+697	    -2145120253	2149847043	    0×80241003	Search may have missed some updates because policy has disabled Windows Installer patching.
+698	    -2145120254	2149847042	    0×80241002	Search may have missed some updates because the Windows Installer is not configured.
+699	    -2145120255	2149847041	    0×80241001	Search may have missed some updates because the Windows Installer is less than version 3.1.
+700	    -2145120257	2149847039	    0x80240FFF	An operation failed due to reasons not covered by another error code.
+701	    -2145123263	2149844033	    0×80240441	The operation is invalid because protocol talker is in an inappropriate state.
+702	    -2145123264	2149844032	    0×80240440	The connection to the service endpoint died.
+703	    -2145123265	2149844031	    0x8024043F	A URL for the requested service endpoint is not available.
+704	    -2145123266	2149844030	    0x8024043E	The endpoint provider plugin requires online refresh.
+705	    -2145123267	2149844029	    0x8024043D	The requested service property is not available.
+706	    -2145123268	2149844028	    0x8024043C	The proxy auth scheme is not supported.
+707	    -2145123269	2149844027	    0x8024043B	Unable to load NWS runtime.
+708	    -2145123270	2149844026	    0x8024043A	The url is invalid.
+709	    -2145123271	2149844025	    0×80240439	The data received does not meet the data contract expectations.
+710	    -2145123272	2149844024	    0×80240438	There is no route or network connectivity to the endpoint.
+711	    -2145123273	2149844023	    0×80240437	There was a problem authorizing with the service.
+712	    -2145123274	2149844022	    0×80240436	The server does not support category-specific search; Full catalog search has to be issued instead.
+713	    -2145124278	2149843018	    0x8024004A	Windows Update agent operations are not available while OS setup is running.
+714	    -2145124279	2149843017	    0×80240049	The data is out of range.
+715	    -2145124280	2149843016	    0×80240048	The featured update notification info returned by the server is invalid.
+716	    -2145124281	2149843015	    0×80240047	The operation requested is not supported.
+717	    -2145124282	2149843014	    0×80240046	The URL does not point to a file.
+718	    -2145124283	2149843013	    0×80240045	A search was attempted with a scope that is not currently supported for this type of search.
+719	    -2145124284	2149843012	    0×80240044	Only administrators can perform this operation on per-machine updates.
+720	    -2145124285	2149843011	    0×80240043	There is no support for WUA UI.
+721	    -2145124286	2149843010	    0×80240042	The update service is no longer registered with AU.
+722	    -2145124287	2149843009	    0×80240041	Service is not available while sysprep is running.
+723	    -2145124288	2149843008	    0×80240040	WUA API method does not run on Server Core installation.
+724	    -2145124295	2149843001	    0×80240039	Agent is asked by server to resync too many times.
+725	    -2145124296	2149843000	    0×80240038	The downloaded file has an unexpected content type.
+726	    -2145124297	2149842999	    0×80240037	The functionality for the operation is not supported.
+727	    -2145124298	2149842998	    0×80240036	The object’s current state did not allow the operation.
+728	    -2145124299	2149842997	    0×80240035	The update was not processed.
+729	    -2145124300	2149842996	    0×80240034	Update failed to download.
+730	    -2145124301	2149842995	    0×80240033	License terms could not be downloaded.
+731	    -2145124302	2149842994	    0×80240032	The search criteria string was invalid.
+732	    -2145124303	2149842993	    0×80240031	The file is in the wrong format.
+733	    -2145124304	2149842992	    0×80240030	The format of the proxy list was invalid.
+734	    -2145124305	2149842991	    0x8024002F	Operation did not complete because the DisableWindowsUpdateAccess policy was set.
+735	    -2145124306	2149842990	    0x8024002E	Access to an unmanaged server is not allowed.
+736	    -2145124307	2149842989	    0x8024002D	A full-file update could not be installed because it required the source.
+737	    -2145124308	2149842988	    0x8024002C	A delta-compressed update could not be installed because it required the source.
+738	    -2145124309	2149842987	    0x8024002B	An operation did not complete because it requires a newer version of server.
+739	    -2145124310	2149842986	    0x8024002A	A component required to detect applicable updates was missing.
+740	    -2145124311	2149842985	    0×80240029	Search may have missed some updates before there is an unlicensed application on the system.
+741	    -2145124312	2149842984	    0×80240028	The update could not be uninstalled because the request did not originate from a WSUS server.
+742	    -2145124313	2149842983	    0×80240027	The URL exceeded the maximum length.
+743	    -2145124314	2149842982	    0×80240026	The type of update is invalid.
+744	    -2145124315	2149842981	    0×80240025	Group Policy settings prevented access to Windows Update.
+745	    -2145124316	2149842980	    0×80240024	There are no updates.
+746	    -2145124317	2149842979	    0×80240023	The license terms for all updates were declined.
+747	    -2145124318	2149842978	    0×80240022	Operation failed for all the updates.
+748	    -2145124319	2149842977	    0×80240021	Operation did not complete because it timed out.
+749	    -2145124320	2149842976	    0×80240020	Operation did not complete because there is no logged-on interactive user.
+750	    -2145124321	2149842975	    0x8024001F	Operation did not complete because the network connection was unavailable.
+751	    -2145124322	2149842974	    0x8024001E	Operation did not complete because the service or system was being shut down.
+752	    -2145124323	2149842973	    0x8024001D	An update contains invalid metadata.
+753	    -2145124325	2149842971	    0x8024001B	The operation could not be performed because the Windows Update Agent is self-updating.
+754	    -2145124326	2149842970	    0x8024001A	A policy value was not set.
+755	    -2145124327	2149842969	    0×80240019	An exclusive update cannot be installed with other updates at the same time.
+756	    -2145124328	2149842968	    0×80240018	Operation failed because a required user token is missing.
+757	    -2145124329	2149842967	    0×80240017	Operation was not performed because there are no applicable updates.
+758	    -2145124330	2149842966	    0×80240016	Operation tried to install while another installation was in progress or the system was pending a mandatory restart.
+759	    -2145124332	2149842964	    0×80240014	Updates requested for install are not installable by caller.
+760	    -2145124333	2149842963	    0×80240013	Operation tried to add a duplicate item to a list.
+761	    -2145124334	2149842962	    0×80240012	An invalid registry value was read.
+762	    -2145124335	2149842961	    0×80240011	An invalid update relationship was detected.
+763	    -2145124336	2149842960	    0×80240010	Update relationships too deep to evaluate were evaluated.
+764	    -2145124337	2149842959	    0x8024000F	Circular update relationships were detected in the metadata.
+765	    -2145124338	2149842958	    0x8024000E	Windows Update Agent found invalid information in the update’s XML data.
+766	    -2145124339	2149842957	    0x8024000D	Windows Update Agent could not find required information in the update’s XML data.
+767	    -2145124340	2149842956	    0x8024000C	No operation was required.
+768	    -2145124341	2149842955	    0x8024000B	Operation was cancelled.
+769	    -2145124342	2149842954	    0x8024000A	Cancellation of the operation was not allowed.
+770	    -2145124343	2149842953	    0×80240009	Another conflicting operation was in progress. Some operations such as installation cannot be performed twice simultaneously.
+771	    -2145124344	2149842952	    0×80240008	The key for the item queried could not be found.
+772	    -2145124345	2149842951	    0×80240007	The index to a collection was invalid.
+773	    -2145124346	2149842950	    0×80240006	The requested number of byte ranges exceeds the maximum number (2^31 – 1).
+774	    -2145124347	2149842949	    0×80240005	The update handler requested a byte range overlapping a previously requested range.
+775	    -2145124348	2149842948	    0×80240004	The object could not be initialized.
+776	    -2145124349	2149842947	    0×80240003	An ID cannot be found.
+777	    -2145124350	2149842946	    0×80240002	The maximum capacity of the service was exceeded.
+778	    -2145124351	2149842945	    0×80240001	Windows Update Agent was unable to provide the service.
+779	    -2146232576	2148734720	    0×80131700	Common Language Runtime (CLR) and the necessary version of the CLR cannot be loaded
+780	    -2146893558	2148073738	    0x8009010A	A fatal error occurred while preparing to execute the program for example when creating the program execution environment making a network connection impersonating the user determining the file association information or when attempting to launch the program. This program execution will not be retried.
+781	    -2146893559	2148073737	    0×80090109	Failed to verify that the given file is a valid installation package.
+782	    -2146893560	2148073736	    0×80090108	Failed to access all the provided program locations. This program will not retry.
+783	    -2146893562	2148073734	    0×80090106	Failed to verify the executable file is valid or to construct the associated command line.
+784	    -2146893564	2148073732	    0×80090104	The command line for this program is invalid.
+785	    -2146893566	2148073730	    0×80090102	An error occurred while creating the execution context.
+786	    -2146893567	2148073729	    0×80090101	A fatal error has been encountered while attempting to run the program. The program execution will not be retried.
+787	    -2146958768	2148008528	    0×80080250	The computer restart cannot be initiated because a software installation job is in progress.
+788	    -2146958832	2148008464	    0×80080210	Failed to get content locations.
+789	    -2146958844	2148008452	    0×80080204	No distribution points were found for the requested content.
+790	    -2146958845	2148008451	    0×80080203	The client cache is currently in use by a running program or by a download in progress.
+791	    -2146958846	2148008450	    0×80080202	The content download cannot be performed because the total size of the client cache is smaller than the size of the requested content.
+792	    -2146958847	2148008449	    0×80080201	The content download cannot be performed because there is not enough available space in cache or the disk is full.
+793	    -2146958848	2148008448	    0×80080200	No content request found with the given handle.
+794	    -2146959097	2148008199	    0×80080107	Failed to access all the provided program locations. This program may retry if the maximum retry count has not been reached.
+795	    -2146959099	2148008197	    0×80080105	An error was encountered while getting the process information for the launched program and the program execution will not be monitored.
+796	    -2146959101	2148008195	    0×80080103	A non fatal error occurred while preparing to execute the program for example when creating the program execution environment making a network connection impersonating the user determining the file association information or when attempting to launch the program. This program execution will be retried if the retry count has not been exceeded.
+797	    -2146959104	2148008192	    0×80080100	A non fatal error has been encountered while attempting to run the program. The program execution will be retried if the retry count has not been exceeded.
+798	    -2146959336	2148007960	    0×80080018	The program cannot run at this time because the client is on the internet.
+799	    -2146959337	2148007959	    0×80080017	The content hash string or hash version are empty or incorrect in the software distribution policy or the hash verification failed.
+800	    -2146959339	2148007957	    0×80080015	Failed to notify caller that software distribution is paused because the paused state or paused cookie do not match.
+801	    -2146959340	2148007956	    0×80080014	The program cannot run because it is targeted to a user requires user input or is set to run in user context.
+802	    -2146959341	2148007955	    0×80080013	This program cannot run because it depends on another program that has not run successfully before.
+803	    -2146959342	2148007954	    0×80080012	There is no program currently running.
+804	    -2146959343	2148007953	    0×80080011	The execution request was not found.
+805	    -2146959344	2148007952	    0×80080010	A system restart is in progress or there is a pending execution for this program which requires a computer restart.
+806	    -2146959351	2148007945	    0×80080009	Failed to get data from WMI.
+807	    -2146959352	2148007944	    0×80080008	Failed to indicate the client cache is currently in use.
+808	    -2146959354	2148007942	    0×80080006	The requested program is not currently pending.
+809	    -2146959355	2148007941	    0×80080005	The policy for this program does not exist or is invalid.
+810	    -2146959356	2148007940	    0×80080004	The program is disabled.
+811	    -2146959358	2148007938	    0×80080002	Another execution for this program is already pending.
+812	    -2146959359	2148007937	    0×80080001	Another software execution is in progress or a restart is pending.
+813	    -2147012866	2147954430	    0x80072EFE	Network connection: Windows Update Agent encountered transient network connection-related errors
+814	    -2147012867	2147954429	    0x80072EFD	Network connection: Windows Update Agent encountered transient network connection-related errors
+815	    -2147012894	2147954402	    0x80072EE2	Network connection: Windows Update Agent encountered transient network connection-related errors
+816	    -2147019465	2147947831	    0×80071537	A format exception was thrown. This typically indicates that the Package data is invalid. Please verify deployed package details
+817	    -2147019511	2147947785	    0×80071509	An PSInvalidOperationException was received. The provided package is already installed and reinstallation of the package was blocked. Check the AppXDeployment-Server event log for details
+818	    -2147019519	2147947777	    0×80071501	Access Denied when executing scripts. Please upgrade power shell or set Execution Policy in Client Agent Settings
+819	    -2147019520	2147947776	    0×80071500	Enforcement failed as an expected resource was not available. This may be related to the package failing updates dependency or conflict violations.
+820	    -2147023838	2147943458	    0×80070422	Windows: The service cannot be started either because it is disabled or because it has no enabled devices associated with it
+821	    -2147024894	2147942402	    0×80070002	The file you specified could not be found. This may be because it is not signed.
+822	    -2147205071	2147762225	    0×80044031	Invalid DeleteClass syntax
+823	    -2147205072	2147762224	    0×80044030	Invalid include file
+824	    -2147205073	2147762223	    0x8004402F	Error creating temporary file
+825	    -2147205074	2147762222	    0x8004402E	Qualifier is used outside of its scope
+826	    -2147205075	2147762221	    0x8004402D	Invalid qualifier syntax. Should be of the for Qualifier name:type=valuescope(class|instance) flavor(toinstance|etc);
+827	    -2147205076	2147762220	    0x8004402C	Invalid delete instance syntax should be #pragma deleteinstance(“instance path” FAIL|NOFAIL)
+828	    -2147205077	2147762219	    0x8004402B	CIM V2.2 feature not currently supported; data type
+829	    -2147205078	2147762218	    0x8004402A	CIM V2.2 feature not currently supported for qualifier value
+830	    -2147205079	2147762217	    0×80044029	Expected brace or bad type
+831	    -2147205080	2147762216	    0×80044028	Invalid flags syntax
+832	    -2147205081	2147762215	    0×80044027	Arguments must have an “In” and/or “Out” qualifier
+833	    -2147205082	2147762214	    0×80044026	Methods cannot return array values
+834	    -2147205083	2147762213	    0×80044025	Combining “Restricted” and “ToInstance” or “ToSubClass” is not legal
+835	    -2147205084	2147762212	    0×80044024	Alias cannot be used twice
+836	    -2147205085	2147762211	    0×80044023	Combining Overridable and NotOverridable is not legal
+837	    -2147205086	2147762210	    0×80044022	Expected a flavor type such as ToInstance ToSubClass EnableOverride or DisableOverride
+838	    -2147205087	2147762209	    0×80044021	Duplicate qualifier declaration unexpected
+839	    -2147205088	2147762208	    0×80044020	NULL elements in array are not supported
+840	    -2147205089	2147762207	    0x8004401F	Embedded objects may not be aliases
+841	    -2147205090	2147762206	    0x8004401E	This is not a valid MOF file
+842	    -2147205091	2147762205	    0x8004401D	Value out of range
+843	    -2147205092	2147762204	    0x8004401C	Invalid namespace syntax. References to other servers are not allowed!
+844	    -2147205093	2147762203	    0x8004401B	Duplicate property declaration unexpected
+845	    -2147205094	2147762202	    0x8004401A	‘CIMTYPE’ qualifier may not be specified directly in a MOF file. Use standard type notation
+846	    -2147205095	2147762201	    0×80044019	Expected dollar sign. ‘as’ keyword must be followed by an alias of the form ‘$name’
+847	    -2147205096	2147762200	    0×80044018	Invalid instance declaration. Must start with ‘instance of’
+848	    -2147205097	2147762199	    0×80044017	Invalid class declaration
+849	    -2147205098	2147762198	    0×80044016	Dollar sign must be followed by an alias name (an identifier)
+850	    -2147205099	2147762197	    0×80044015	Type mismatch. The value specified could not be coerced into the appropriate type
+851	    -2147205100	2147762196	    0×80044014	Unexpected character in class name (must be an identifier)
+852	    -2147205101	2147762195	    0×80044013	Invalid namespace path syntax
+853	    -2147205102	2147762194	    0×80044012	#pragma must be followed by a valid keyword
+854	    -2147205103	2147762193	    0×80044011	Duplicate amendment specifiers
+855	    -2147205104	2147762192	    0×80044010	Invalid namespace path syntax
+856	    -2147205105	2147762191	    0x8004400F	Unexpected array initialization. Arrays must be declared with []
+857	    -2147205106	2147762190	    0x8004400E	Unexpected alias. Only references to class object can take alias values
+858	    -2147205107	2147762189	    0x8004400D	Typedefs and enumerated types are not currently supported
+859	    -2147205108	2147762188	    0x8004400C	Expected property or method name
+860	    -2147205109	2147762187	    0x8004400B	Unrecognized or unsupported type identifier
+861	    -2147205110	2147762186	    0x8004400A	Unexpected token at file scope
+862	    -2147205111	2147762185	    0×80044009	Expected open parenthesis
+863	    -2147205112	2147762184	    0×80044008	Expected type identifier
+864	    -2147205113	2147762183	    0×80044007	Illegal constant value. (Numeric value out of range or strings without quotes)
+865	    -2147205114	2147762182	    0×80044006	Expected closing parenthesis
+866	    -2147205115	2147762181	    0×80044005	Expected closing bracket
+867	    -2147205116	2147762180	    0×80044004	Missing closing brace or illegal array element
+868	    -2147205117	2147762179	    0×80044003	Expected open brace
+869	    -2147205118	2147762178	    0×80044002	Expected semicolon or ‘=’
+870	    -2147205119	2147762177	    0×80044001	Expected qualifier name an identifier
+871	    -2147209214	2147758082	    0×80043002	Resource Contention
+872	    -2147209215	2147758081	    0×80043001	Retry Later
+873	    -2147213309	2147753987	    0×80042003	This computer does not have the necessary domain permissions to support the security functions relating to the created subscription instance. Contact the Domain Administrator to get this computer added to the Windows Authorization Access Group.
+874	    -2147213310	2147753986	    0×80042002	‘WITHIN’ clause must be used in this query due to lack of event providers
+875	    -2147213311	2147753985	    0×80042001	Provider registration overlaps with system event domain
+876	    -2147217271	2147750025	    0×80041089	Attempt to put an instance with no defined key.
+877	    -2147217272	2147750024	    0×80041088	A provider failed to report results within the specified timeout.
+878	    -2147217273	2147750023	    0×80041087	Client connection to WINMGMT needs to be encrypted for this operation. Please adjust your IWbemServices proxy security settings and retry.
+879	    -2147217274	2147750022	    0×80041086	Fatal transport error other transport will not be tried
+880	    -2147217275	2147750021	    0×80041085	Provider not registered
+881	    -2147217276	2147750020	    0×80041084	Provider already registered
+882	    -2147217277	2147750019	    0×80041083	Schema required to complete the operation is not available
+883	    -2147217278	2147750018	    0×80041082	The object must be committed and retrieved again before the requested operation can succeed
+884	    -2147217279	2147750017	    0×80041081	Provider suspended
+885	    -2147217280	2147750016	    0×80041080	The specified locale id was not valid for the operation.
+886	    -2147217286	2147750010	    0x8004107A	Veto put
+887	    -2147217287	2147750009	    0×80041079	Veto delete
+888	    -2147217288	2147750008	    0×80041078	Database version mismatch
+889	    -2147217289	2147750007	    0×80041077	Rerun command
+890	    -2147217290	2147750006	    0×80041076	Qualifier name too wide
+891	    -2147217291	2147750005	    0×80041075	Method name too wide
+892	    -2147217292	2147750004	    0×80041074	Class name too wide
+893	    -2147217293	2147750003	    0×80041073	Property name too wide
+894	    -2147217294	2147750002	    0×80041072	Invalid handle request
+895	    -2147217295	2147750001	    0×80041071	Connection failed
+896	    -2147217296	2147750000	    0×80041070	Handle out of date
+897	    -2147217297	2147749999	    0x8004106F	Unsupported locale
+898	    -2147217298	2147749998	    0x8004106E	Transaction forced rollback
+899	    -2147217299	2147749997	    0x8004106D	Transaction conflict
+900	    -2147217300	2147749996	    0x8004106C	Quota violation
+901	    -2147217301	2147749995	    0x8004106B	Ambiguous operation
+902	    -2147217302	2147749994	    0x8004106A	Invalid association
+903	    -2147217303	2147749993	    0×80041069	Operation times out
+904	    -2147217304	2147749992	    0×80041068	Null security descriptor used
+905	    -2147217305	2147749991	    0×80041067	The client was not retrieving objects quickly enough from an enumeration
+906	    -2147217306	2147749990	    0×80041066	An amended object cannot be put unless WBEM_FLAG_USE_AMENDED_QUALIFIERS is specified
+907	    -2147217307	2147749989	    0×80041065	A class cannot be abstract if its superclass is not also abstract
+908	    -2147217308	2147749988	    0×80041064	User credentials cannot be used for local connections
+909	    -2147217309	2147749987	    0×80041063	This operator is not valid for this property type.
+910	    -2147217310	2147749986	    0×80041062	Privilege not held.
+911	    -2147217311	2147749985	    0×80041061	Event queue overflowed.
+912	    -2147217312	2147749984	    0×80041060	A backup or restore was requested while WinMgmt is already running.
+913	    -2147217313	2147749983	    0x8004105F	Intrinsic event provider registration uses illegal query.
+914	    -2147217315	2147749981	    0x8004105D	Aggregation on a property that is an embedded object is not supported.
+915	    -2147217316	2147749980	    0x8004105C	‘Dot’ notation cannot be used on a property that is not an embedded object.
+916	    -2147217317	2147749979	    0x8004105B	Aggregation on all properties is not supported.
+917	    -2147217318	2147749978	    0x8004105A	‘BY’ cannot be used without ‘GROUP WITHIN’.
+918	    -2147217319	2147749977	    0×80041059	Class is not an event class.
+919	    -2147217320	2147749976	    0×80041058	Unparsable query.
+920	    -2147217321	2147749975	    0×80041057	The refresher is busy
+921	    -2147217322	2147749974	    0×80041056	This method is disabled for this class
+922	    -2147217323	2147749973	    0×80041055	This method is not implemented in any class
+923	    -2147217324	2147749972	    0×80041054	A method was redeclared with a conflicting signature in a derived class.
+924	    -2147217325	2147749971	    0×80041053	A non-overrideable qualifier was overridden in a derived class.
+925	    -2147217326	2147749970	    0×80041052	A property was redefined with a conflicting type in a derived class.
+926	    -2147217327	2147749969	    0×80041051	Class object already contains the maximum number of properties.
+927	    -2147217328	2147749968	    0×80041050	Cannot change class index inheritance.
+928	    -2147217335	2147749961	    0×80041049	Cannot change class key inheritance.
+929	    -2147217336	2147749960	    0×80041048	Unsupported class update.
+930	    -2147217337	2147749959	    0×80041047	Class derivation caused circular reference.
+931	    -2147217338	2147749958	    0×80041046	Invalid flavor
+932	    -2147217339	2147749957	    0×80041045	Server buffers are full and data cannot be accepted
+933	    -2147217340	2147749956	    0×80041044	Server buffers are full and data cannot be accepted
+934	    -2147217341	2147749955	    0×80041043	Invalid Duplicate Parameter.
+935	    -2147217342	2147749954	    0×80041042	Invalid qualifier.
+936	    -2147217343	2147749953	    0×80041041	Marshaling packet signature is invalid.
+937	    -2147217344	2147749952	    0×80041040	Marshaling packet version mismatch.
+938	    -2147217345	2147749951	    0x8004103F	The marshaling packet type is unknown.
+939	    -2147217346	2147749950	    0x8004103E	The marshaling packet identifies an unknown object.
+940	    -2147217347	2147749949	    0x8004103D	Provider does not support put extensions
+941	    -2147217348	2147749948	    0x8004103C	The supplied buffer was too small
+942	    -2147217349	2147749947	    0x8004103B	Out of disk space
+943	    -2147217350	2147749946	    0x8004103A	Invalid object path
+944	    -2147217351	2147749945	    0×80041039	Return Value has a parameter id.
+945	    -2147217352	2147749944	    0×80041038	Non-consecutive parameter ids.
+946	    -2147217353	2147749943	    0×80041037	Invalid parameter id.
+947	    -2147217354	2147749942	    0×80041036	Missing parameter id.
+948	    -2147217355	2147749941	    0×80041035	Unsupported parameter
+949	    -2147217356	2147749940	    0×80041034	Propagated method
+950	    -2147217357	2147749939	    0×80041033	Shutting down
+951	    -2147217358	2147749938	    0×80041032	Call cancelled
+952	    -2147217359	2147749937	    0×80041031	Invalid property
+953	    -2147217360	2147749936	    0×80041030	System property
+954	    -2147217361	2147749935	    0x8004102F	Invalid method Parameter(s)
+955	    -2147217362	2147749934	    0x8004102E	Invalid method
+956	    -2147217363	2147749933	    0x8004102D	Invalid CimType
+957	    -2147217364	2147749932	    0x8004102C	Cannot be singleton
+958	    -2147217365	2147749931	    0x8004102B	Value out of range
+959	    -2147217366	2147749930	    0x8004102A	Invalid property type
+960	    -2147217367	2147749929	    0×80041029	Invalid qualifier type
+961	    -2147217368	2147749928	    0×80041028	Illegal null value
+962	    -2147217369	2147749927	    0×80041027	Query not implemented
+963	    -2147217370	2147749926	    0×80041026	Class has instances
+964	    -2147217371	2147749925	    0×80041025	Class has children
+965	    -2147217372	2147749924	    0×80041024	Provider is not capable of the attempted operation
+966	    -2147217373	2147749923	    0×80041023	Attempt to modify read-only object or property failed
+967	    -2147217374	2147749922	    0×80041022	Non-decorated object
+968	    -2147217375	2147749921	    0×80041021	Invalid syntax
+969	    -2147217376	2147749920	    0×80041020	Incomplete class
+970	    -2147217377	2147749919	    0x8004101F	Property can not be key
+971	    -2147217378	2147749918	    0x8004101E	Illegal operation
+972	    -2147217379	2147749917	    0x8004101D	Unexpected error
+973	    -2147217380	2147749916	    0x8004101C	Propagated property
+974	    -2147217381	2147749915	    0x8004101B	Propagated qualifier
+975	    -2147217382	2147749914	    0x8004101A	Override not allowed
+976	    -2147217383	2147749913	    0×80041019	Object or property already exists
+977	    -2147217384	2147749912	    0×80041018	Invalid query type
+978	    -2147217385	2147749911	    0×80041017	Invalid query
+979	    -2147217386	2147749910	    0×80041016	Invalid operation
+980	    -2147217387	2147749909	    0×80041015	Transport failure
+981	    -2147217388	2147749908	    0×80041014	Initialization failure
+982	    -2147217389	2147749907	    0×80041013	Provider load failure
+983	    -2147217390	2147749906	    0×80041012	Invalid provider registration
+984	    -2147217391	2147749905	    0×80041011	Provider not found
+985	    -2147217392	2147749904	    0×80041010	Invalid class
+986	    -2147217393	2147749903	    0x8004100F	Invalid object
+987	    -2147217394	2147749902	    0x8004100E	Invalid namespace
+988	    -2147217395	2147749901	    0x8004100D	Invalid superclass
+989	    -2147217396	2147749900	    0x8004100C	Not supported
+990	    -2147217397	2147749899	    0x8004100B	Invalid stream
+991	    -2147217398	2147749898	    0x8004100A	Critical error
+992	    -2147217399	2147749897	    0×80041009	Not available
+993	    -2147217400	2147749896	    0×80041008	Invalid parameter
+994	    -2147217401	2147749895	    0×80041007	Invalid context
+995	    -2147217402	2147749894	    0×80041006	Out of memory
+996	    -2147217403	2147749893	    0×80041005	Type mismatch
+997	    -2147217404	2147749892	    0×80041004	Provider failure
+998	    -2147217405	2147749891	    0×80041003	Access denied
+999	    -2147217406	2147749890	    0×80041002	Not found
+1000	-2147217407	2147749889	    0×80041001	Generic failure
+1001	-2147219691	2147747605	    0×80040715	No updates specified in requested job
+1002	-2147219692	2147747604	    0×80040714	User based install not allowed as system restart is pending
+1003	-2147219693	2147747603	    0×80040713	Software updates detection results not received yet
+1004	-2147219694	2147747602	    0×80040712	A system restart is required to complete the installation
+1005	-2147219695	2147747601	    0×80040711	Software updates deployment not active yet i.e. start time is in future
+1006	-2147219696	2147747600	    0×80040710	Failed to compare process creation time
+1007	-2147219697	2147747599	    0x8004070F	Invalid updates installer path
+1008	-2147219698	2147747598	    0x8004070E	Empty command line specified
+1009	-2147219699	2147747597	    0x8004070D	Software update failed when attempted
+1010	-2147219700	2147747596	    0x8004070C	Software update execution timeout
+1011	-2147219701	2147747595	    0x8004070B	Failed to create process
+1012	-2147219702	2147747594	    0x8004070A	Invalid command line
+1013	-2147219703	2147747593	    0×80040709	Failed to resume the monitoring of the process
+1014	-2147219704	2147747592	    0×80040708	Software Updates Install not required
+1015	-2147219705	2147747591	    0×80040707	Job Id mismatch
+1016	-2147219706	2147747590	    0×80040706	No active job exists
+1017	-2147219707	2147747589	    0×80040705	Pause state required
+1018	-2147219708	2147747588	    0×80040704	Hard reboot is pending
+1019	-2147219709	2147747587	    0×80040703	Another software updates install job is in progress. Only one job is allowed at a time.
+1020	-2147219710	2147747586	    0×80040702	Assignment policy not found
+1021	-2147219711	2147747585	    0×80040701	Software updates download not allowed at this time
+1022	-2147219712	2147747584	    0×80040700	Software updates installation not allowed at this time
+1023	-2147219815	2147747481	    0×80040699	Scan is already in progress
+1024	-2147219816	2147747480	    0×80040698	Software update being attempted is not actionable
+1025	-2147219817	2147747479	    0×80040697	Software update is already installed but just requires a reboot to complete the installation
+1026	-2147219818	2147747478	    0×80040696	Software update is already installed
+1027	-2147219819	2147747477	    0×80040695	Incomplete scan results
+1028	-2147219820	2147747476	    0×80040694	WSUS source already exists
+1029	-2147219821	2147747475	    0×80040693	Windows Updates Agent version too low
+1030	-2147219822	2147747474	    0×80040692	Group policy conflict
+1031	-2147219823	2147747473	    0×80040691	Software update source not found
+1032	-2147219824	2147747472	    0×80040690	Software update is not applicable
+1033	-2147219862	2147747434	    0x8004066A	None of the child software updates of a bundle are applicable
+1034	-2147219863	2147747433	    0×80040669	Not able to get software updates content locations at this time
+1035	-2147219864	2147747432	    0×80040668	Software update still detected as actionable after apply
+1036	-2147219865	2147747431	    0×80040667	No current or future service window exists to install software updates
+1037	-2147219866	2147747430	    0×80040666	Software updates cannot be install outside service window
+1038	-2147219867	2147747429	    0×80040665	Software update does not exist in the job
+1039	-2147219868	2147747428	    0×80040664	Updates handler job was cancelled
+1040	-2147219869	2147747427	    0×80040663	Failed to report installation status of software updates
+1041	-2147219870	2147747426	    0×80040662	Failed to trigger installation of software updates
+1042	-2147219871	2147747425	    0×80040661	Error while detecting updates status after installation success
+1043	-2147219872	2147747424	    0×80040660	Unable to monitor a software update’s execution
+1044	-2147219879	2147747417	    0×80040659	Error occurred reading policy for software update
+1045	-2147219880	2147747416	    0×80040658	Software updates processing was cancelled
+1046	-2147219881	2147747415	    0×80040657	Error while detecting software updates status after scan success
+1047	-2147219882	2147747414	    0×80040656	Updates handler was unable to continue due to some generic internal error
+1048	-2147219883	2147747413	    0×80040655	Failed to install one or more software updates
+1049	-2147219884	2147747412	    0×80040654	Software update install failure occurred
+1050	-2147219885	2147747411	    0×80040653	Software update download failure occurred
+1051	-2147219886	2147747410	    0×80040652	Software update policy was not found
+1052	-2147219887	2147747409	    0×80040651	Post install scan failed
+1053	-2147219888	2147747408	    0×80040650	Pre install scan failed
+1054	-2147219916	2147747380	    0×80040634	Legacy scanner not supported
+1055	-2147219917	2147747379	    0×80040633	Offline scan is pending
+1056	-2147219918	2147747378	    0×80040632	Online scan is pending
+1057	-2147219919	2147747377	    0×80040631	Scan retry is pending
+1058	-2147219920	2147747376	    0×80040630	Maximum retries exhausted
+1059	-2147219927	2147747369	    0×80040629	Rescan of the updates is pending
+1060	-2147219928	2147747368	    0×80040628	Invalid content location
+1061	-2147219929	2147747367	    0×80040627	Process instance not found
+1062	-2147219930	2147747366	    0×80040626	Invalid process instance information
+1063	-2147219960	2147747336	    0×80040608	Invalid instance type
+1064	-2147219961	2147747335	    0×80040607	Content not found
+1065	-2147219962	2147747334	    0×80040606	Offline scan tool history not found
+1066	-2147219963	2147747333	    0×80040605	Scan tool has been removed
+1067	-2147219964	2147747332	    0×80040604	The ScanTool not found in job queue
+1068	-2147219965	2147747331	    0×80040603	The ScanTool policy has been removed so cannot complete scan operation
+1069	-2147219966	2147747330	    0×80040602	Content location request timeout occurred
+1070	-2147219968	2147747328	    0×80040600	Scan Tool Policy not found
+1071	-2147220694	2147746602	    0x8004032A	Uninstall action is not defined for the deployment
+1072	-2147220695	2147746601	    0×80040329	Script execution failed with error code -1. Failure may be related to execution policy. Please upgrade power shell or set Execution Policy in Client Agent settings
+1073	-2147220697	2147746599	    0×80040327	Script execution failed with error code -1. Failure may be related to execution policy not being set to Bypass for power shell in agent settings
+1074	-2147220698	2147746598	    0×80040326	The specified deployment action is not defined for the Deployment Type
+1075	-2147220699	2147746597	    0×80040325	Error while detecting application after successful uninstall
+1076	-2147220700	2147746596	    0×80040324	Error while detecting application after successful install
+1077	-2147220702	2147746594	    0×80040322	Rule is in conflict with other rules
+1078	-2147220703	2147746593	    0×80040321	The script execution has timed out.
+1079	-2147220704	2147746592	    0×80040320	The script host has not been installed yet.
+1080	-2147220714	2147746582	    0×80040316	CI Agent job was cancelled.
+1081	-2147220715	2147746581	    0×80040315	CI Version Info not available.
+1082	-2147220716	2147746580	    0×80040314	CI Version Info timed out.
+1083	-2147220973	2147746323	    0×80040213	Enforcement Timed Out
+1084	-2147352572	2147614724	    0×80020004	The software distribution policy was not found.
+1085	-2147352574	2147614722	    0×80020002	The software distribution policy for this program was not found.
+1086	-2147446127	2147521169	    0×80009291	The command timed out
+1087	-2147446129	2147521167	    0x8000928F	App-V command returned failure
+1088	-2147446130	2147521166	    0x8000928E	Could not uninstall the AppV deployment type because of conflict. The published components in this deployment type are still published by other deployment types. This deployment type will be always detected as long as other deployment types are still installed
+1089	-2147446132	2147521164	    0x8000928C	Could not find streaming distribution point for the AppV package
+1090	-2147446133	2147521163	    0x8000928B	Could not start the software because it is no longer installed on this computer.
+1091	-2147446134	2147521162	    0x8000928A	The AppV Client has reported a launch error
+1092	-2147446136	2147521160	    0×80009288	The software cannot run at this time because a pending software update for it is being applied. Once the update has been installed you can run the application.
+1093	-2147446138	2147521158	    0×80009286	The AppV package has already installed higher version by another deployment type so we cannot install a lower version of the package
+1094	-2147446139	2147521157	    0×80009285	The dependent AppV package is not installed
+1095	-2147446142	2147521154	    0×80009282	AppV package registration or deletion failed due to a fatal error
+1096	-2147450239	2147517057	    0×80008281	A supported AppV client is not installed
+1097	-2147450364	2147516932	    0×80008204	No distribution points were found for the requested content.
+1098	2359297	    2359297	        0×00240001	Windows Update Agent was stopped successfully.
+1099	2359298	    2359298	        0×00240002	Windows Update Agent updated itself.
+1100	2359299	    2359299	        0×00240003	Operation completed successfully but there were errors applying the updates.
+1101	2359300	    2359300	        0×00240004	A callback was marked to be disconnected later because the request to disconnect the operation came while a callback was executing.
+1102	2359301	    2359301	        0×00240005	The system must be restarted to complete installation of the update.
+1103	2359302	    2359302	        0×00240006	The update to be installed is already installed on the system.
+1104	2359303	    2359303	        0×00240007	The update to be removed is not installed on the system.
+1105	2359304	    2359304	        0×00240008	The update to be downloaded has already been downloaded.
+1106	2367509	    2367509	        0×00242015	The installation operation for the update is still in progress.
+1107	262145	    262145	        0×00040001	Already exists
+1108	262146	    262146	        0×00040002	Reset to default
+1109	262147	    262147	        0×00040003	Different
+1110	262148	    262148	        0×00040004	Timed out
+1111	262149	    262149	        0×00040005	No more data
+1112	262150	    262150	        0×00040006	Operation cancelled
+1113	262151	    262151	        0×00040007	Operation Pending
+1114	262152	    262152	        0×00040008	Duplicate objects
+1115	262153	    262153	        0×00040009	Access Denied
+1116	262160	    262160	        0×00040010	Partial Results
