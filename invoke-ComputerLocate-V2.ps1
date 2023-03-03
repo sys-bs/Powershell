@@ -8,36 +8,8 @@
         NuGet provider version '2.8.5.201' or newer
         AudioDeviceCmdlets Module
         folder on admin device C:\IT
-
-    i am still more or less at square one. this script will control the remote audiodevices however it will not allow you to play audio out of the remote pc speakers
-    when this is run under the loacl user context the audio plays
-
-    if you use systemtools hyena to remote in to a machine using powershell. and run the contents of start-tone the audio plays out of the remote computer speakers.
-    however if you run the script from a admin powershell terminal on your machine. the audio volume/ mute settings will be changed but no audio will be played. 
-
-
-    this software is provided with the MIT license
-
-    Copyright (c) 2023 middleton
-
-    Permission is hereby granted, free of charge, to any person obtaining a copy
-    of this software and associated documentation files (the "Software"), to deal
-    in the Software without restriction, including without limitation the rights
-    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-    copies of the Software, and to permit persons to whom the Software is
-    furnished to do so, subject to the following conditions:
-
-    The above copyright notice and this permission notice shall be included in all
-    copies or substantial portions of the Software.
-
-    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-    SOFTWARE.
-
+        
+    this software is provided with the Apache-2.0 license. feel free to use this for personal use, or comercial use.
     
 .LINK
     https://community.spiceworks.com/topic/2292318-select-audio-device-with-powershell?page=1#entry-9000652
