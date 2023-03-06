@@ -3,9 +3,12 @@
         this script will set the audio device and unmute a pc's remote speakers to assist with locating it.
 
 .DESCRIPTION
-    This script is to assist locating computers that are powered on but the location is unknown. 
+    V1: this script was to assist with imaging of computers. this script is the engine that causes a computer with a failed deployment to beep.
+    
+    V2: since this script is able to beep a computer remotely a added benefit was discovered. 
+    This script is able to assist locating computers that are powered on but the location is unknown. 
     the idea is if the computer makes noise at full volume you or your remote hands can locate it and if that fails,
-    playing the noise long enough will generate a phone call or service desk ticket.
+    playing the noise long enough will generate a phone call or service desk ticket. helping you locate the errant PC
 
 .PARAMETER -computername
     Name of single computer to run against
@@ -164,7 +167,7 @@ function start-alert {
         [String]$computer)
 
     $session = New-PSSession $computer
-    Invoke-Command -Session $session -ScriptBlock { cd C:\IT; .\Alert.ps1 }
+    Invoke-Command -Session $session -ScriptBlock { set-location C:\IT; .\Alert.ps1 }
     $session = Exit-PSSession -Verbose
 
 }
@@ -181,7 +184,7 @@ function start-tone {
         [String]$computer)
 
     #* v12
-    Invoke-Command -Session $session -ScriptBlock { cd C:\IT; .\Tone.ps1 }
+    Invoke-Command -Session $session -ScriptBlock { Set-Location C:\IT; .\Tone.ps1 }
 }
 
 
@@ -209,14 +212,14 @@ ForEach ($computer in $Computername) {
         Set-VolumeLevel -computer $computer
         #start-tone -computer $computer
 
-            $int = 0
-            while ($int -le $time) {
-                Write-Host "$int"
-                Write-Host "pinging $computer "
-                start-tone -computer $computer
-                Start-Sleep -Seconds 10
-                $int ++
-            }
+        $int = 0
+        while ($int -le $time) {
+            Write-Host "$int"
+            Write-Host "pinging $computer "
+            start-tone -computer $computer
+            Start-Sleep -Seconds 10
+            $int ++
+        }
         $session = Exit-PSSession -Verbose
 
     }  
